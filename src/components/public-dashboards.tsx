@@ -1,4 +1,3 @@
-import { FarmSetuShowcase } from '@/components/farmsetu-showcase';
 import { useMemo, useState } from 'react';
 import { useQuery } from '@tanstack/react-query';
 import { BarChart, Bar, CartesianGrid, XAxis, YAxis, Tooltip, ResponsiveContainer, PieChart, Pie, Cell } from 'recharts';
@@ -39,7 +38,7 @@ export function PublicDashboards() {
       const name = String(get(r, 'crop_name', 'crop', 'product_name', 'category') ?? '').toLowerCase();
       return crop === 'All' || !name || name.includes(crop.toLowerCase());
     });
-    return { products: filtered('products'), groups: filtered('purchase_groups'), quotes: filtered('group_quotes') };
+    return { products: filtered('products').filter(r => r.is_demo !== true && r.supplier_verified === true && r.price_verified === true && r.stock_verified === true && r.status === 'active'), groups: filtered('purchase_groups'), quotes: filtered('group_quotes') };
   }, [data, days, crop]);
   const groupsWithQuotes = new Set(quotes.map(r => String(get(r, 'group_id'))));
   const coverage = groups.length ? `${Math.round(groups.filter(g => groupsWithQuotes.has(String(g.id))).length / groups.length * 100)}%` : '—';

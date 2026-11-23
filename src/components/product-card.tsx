@@ -170,7 +170,7 @@ export function ProductCard({ product }: { product: ProductRow }) {
             }}
           >
             <ShoppingCart className="mr-1.5 h-4 w-4" />
-            {canPurchase ? t("addToCart") : product.is_demo ? "Unverified demo" : "Unavailable"}
+            {canPurchase ? t("addToCart") : isPlanned ? "Farmer confirmation pending" : "Unavailable"}
           </Button>
           <Button asChild variant="outline">
             <Link to="/marketplace/$productId" params={{ productId: product.id }}>

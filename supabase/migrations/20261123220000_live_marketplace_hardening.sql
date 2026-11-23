@@ -55,3 +55,17 @@ REVOKE EXECUTE ON FUNCTION public.release_expired_marketplace_reservations() FRO
 GRANT EXECUTE ON FUNCTION public.join_purchase_group(uuid,integer) TO authenticated;
 GRANT EXECUTE ON FUNCTION public.advance_group_order(uuid,text) TO authenticated;
 GRANT EXECUTE ON FUNCTION public.place_group_order(uuid,uuid) TO authenticated;
+
+-- Remove default broad grants (including TRUNCATE, which RLS does not protect).
+DO $$ DECLARE t record; BEGIN
+ FOR t IN SELECT tablename FROM pg_tables WHERE schemaname='public' LOOP
+  EXECUTE format('REVOKE ALL ON TABLE public.%I FROM anon, authenticated',t.tablename);
+  EXECUTE format('GRANT SELECT, INSERT, UPDATE, DELETE ON TABLE public.%I TO authenticated',t.tablename);
+ END LOOP;
+END $$;
+GRANT SELECT ON public.products, public.purchase_groups TO anon;
+GRANT SELECT(id,name,district,village,approved) ON public.farmers TO anon;
+REVOKE INSERT,UPDATE,DELETE ON public.user_roles FROM authenticated;
+REVOKE INSERT,UPDATE,DELETE ON public.group_memberships FROM authenticated;
+REVOKE INSERT,UPDATE,DELETE ON public.group_orders FROM authenticated;
+REVOKE INSERT,UPDATE,DELETE ON public.group_order_events FROM authenticated;

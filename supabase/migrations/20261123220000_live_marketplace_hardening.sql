@@ -45,3 +45,13 @@ DROP TRIGGER IF EXISTS guard_farmer_approval_trigger ON public.farmers;
 CREATE TRIGGER guard_farmer_approval_trigger BEFORE UPDATE ON public.farmers
 FOR EACH ROW EXECUTE FUNCTION public.guard_farmer_approval();
 REVOKE ALL ON FUNCTION public.guard_farmer_approval() FROM public,anon,authenticated;
+
+-- SECURITY DEFINER RPCs are not public API endpoints.
+REVOKE EXECUTE ON FUNCTION public.advance_group_order(uuid,text) FROM public,anon;
+REVOKE EXECUTE ON FUNCTION public.capture_marketplace_order_inventory() FROM public,anon,authenticated;
+REVOKE EXECUTE ON FUNCTION public.join_purchase_group(uuid,integer) FROM public,anon;
+REVOKE EXECUTE ON FUNCTION public.place_group_order(uuid,uuid) FROM public,anon;
+REVOKE EXECUTE ON FUNCTION public.release_expired_marketplace_reservations() FROM public,anon;
+GRANT EXECUTE ON FUNCTION public.join_purchase_group(uuid,integer) TO authenticated;
+GRANT EXECUTE ON FUNCTION public.advance_group_order(uuid,text) TO authenticated;
+GRANT EXECUTE ON FUNCTION public.place_group_order(uuid,uuid) TO authenticated;

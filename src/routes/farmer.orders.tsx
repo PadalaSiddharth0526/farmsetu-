@@ -41,6 +41,7 @@ function FarmerOrders() {
     },
   });
 
+  const stages = ["placed","accepted","preparing","ready","out_for_delivery","delivered"];
   async function updateStatus(id: string, status: string) {
     const { error } = await supabase.from("orders").update({ order_status: status }).eq("id", id);
     if (error) {
@@ -88,11 +89,12 @@ function FarmerOrders() {
               ))}
             </ul>
             {order.delivery_address && <p className="mt-2 text-sm">📍 {order.delivery_address}</p>}
+            <div className="mt-4 flex flex-wrap gap-1">{stages.map((stage,i)=><span key={stage} className={`rounded-lg px-2 py-1 text-xs ${stages.indexOf(order.order_status)>=i?"bg-primary text-primary-foreground":"bg-secondary text-muted-foreground"}`}>{STATUS_LABEL[stage]?.[lang === "te" ? 1 : 0] ?? stage}</span>)}</div>
             <div className="mt-4 grid grid-cols-[minmax(0,1fr)_auto] items-center gap-3">
-              <Select value={order.order_status} onValueChange={(v) => updateStatus(order.id, v)}>
+              <Select value={order.order_status} onValueChange={(v) => updateStatus(order.id, v)} disabled={order.order_status === "delivered" || order.order_status === "cancelled"}>
                 <SelectTrigger className="h-11"><SelectValue /></SelectTrigger>
                 <SelectContent>
-                  {ORDER_STATUSES.map((s) => (
+                  {ORDER_STATUSES.filter(s=>s===order.order_status || s===stages[stages.indexOf(order.order_status)+1]).map((s) => (
                     <SelectItem key={s} value={s}>{STATUS_LABEL[s]?.[lang === "te" ? 1 : 0] ?? s}</SelectItem>
                   ))}
                 </SelectContent>

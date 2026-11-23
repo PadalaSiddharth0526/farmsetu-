@@ -51,6 +51,7 @@ export function ProductCard({ product }: { product: ProductRow }) {
   const farmerName = product.farmers?.name ?? "Supplier not listed";
   const isAvailable = product.status !== "inactive" && product.quantity > 0;
   const canPurchase =
+    !product.is_demo &&
     isAvailable &&
     product.supplier_verified === true &&
     product.price_verified === true &&
@@ -79,9 +80,8 @@ export function ProductCard({ product }: { product: ProductRow }) {
             <Leaf className="h-10 w-10" />
           </div>
         )}
-        {(product.is_demo || isOrganicVerified) && (
+        {isOrganicVerified && (
           <div className="absolute top-3 left-3 flex flex-wrap gap-2">
-            {product.is_demo && <Badge variant="secondary">DEMO</Badge>}
             {isOrganicVerified && <Badge className="bg-leaf text-primary-foreground">{t("organic")}</Badge>}
           </div>
         )}
@@ -131,11 +131,6 @@ export function ProductCard({ product }: { product: ProductRow }) {
               {pick("Total", "మొత్తం")}: ₹{(Number(product.price) * selectedPack).toLocaleString("en-IN")}
             </p>
           </div>
-        )}
-        {product.is_demo && (
-          <p className="mt-2 rounded-lg bg-secondary px-2 py-1 text-xs text-muted-foreground">
-            DEMO · Supplier, price, and stock unverified · Checkout disabled
-          </p>
         )}
 
         <div className="mt-4 flex gap-2">

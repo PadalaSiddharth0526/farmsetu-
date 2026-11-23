@@ -38,6 +38,7 @@ function AccountPage() {
     },
   });
 
+  const stages = ["placed","accepted","preparing","ready","out_for_delivery","delivered"];
   if (!session) {
     return (
       <div className="mx-auto max-w-3xl px-4 py-20 text-center">
@@ -78,6 +79,7 @@ function AccountPage() {
                 <li key={i.id}>{i.crop_name} × {i.quantity} {i.unit} — {rupees(i.price * i.quantity)}</li>
               ))}
             </ul>
+            <div className="mt-4 flex flex-wrap gap-1" aria-label="Order tracking stages">{stages.map((stage,i)=><span key={stage} className={`rounded-lg px-2 py-1 text-xs ${stages.indexOf(order.order_status)>=i?"bg-primary text-primary-foreground":"bg-secondary text-muted-foreground"}`}>{STATUS_LABEL[stage]?.[lang === "te" ? 1 : 0] ?? stage}</span>)}</div>
             <p className="mt-3 font-display text-lg font-bold">{rupees(order.total_amount)}</p>
           </article>
         ))}

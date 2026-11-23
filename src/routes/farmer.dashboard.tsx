@@ -1,4 +1,3 @@
-import { demoCatalog } from "@/lib/demo-catalog";
 import { createFileRoute, Link } from '@tanstack/react-router';
 import { useQuery, useQueryClient } from '@tanstack/react-query';
 import { useMemo, useState } from 'react';
@@ -30,7 +29,7 @@ function FarmerDashboard(){
   const filtered=useMemo(()=>products.filter(p=>`${p.crop_name} ${p.quality||''}`.toLowerCase().includes(search.toLowerCase())),[products,search]);
   async function toggle(id:string,status:string){const next=status==='active'?'inactive':'active';const {error}=await supabase.from('products').update({status:next}).eq('id',id).eq('farmer_id',farmer!.id);if(error){toast.error(error.message);return;}toast.success(`Listing ${next==='active'?'activated':'paused'}`);client.invalidateQueries({queryKey:['cq-farmer-products',farmer?.id]});}
   if(sessionLoading||farmerLoading)return <div className="cqfd-loading">Loading farmer dashboard…</div>;
-  if(!session)return <DemoFarmerOverview/>;
+  if(!session)return <div className="cqfd-gate"><h1>Farmer workspace</h1><p>Sign in or register to manage your own produce, respond to buying groups, and track real orders.</p><Link to="/auth" search={{role:"farmer"}}>Register or sign in as a farmer →</Link></div>;
   if(!farmer)return <div className="cqfd-gate"><h1>Complete your farmer profile</h1><p>A farmer profile is required to view your own listings and orders.</p><Link to="/auth" search={{role:'farmer'}}>Farmer registration →</Link></div>;
   return <div className="cqfd">
     <aside className={`cqfd-side ${mobile?'open':''}`}>
@@ -63,14 +62,3 @@ function FarmerDashboard(){
   </div>;
 }
 
-function DemoFarmerOverview(){
- const [search,setSearch]=useState('');
- const rows=demoCatalog.filter(p=>`${p.crop_name} ${p.variety} ${p.district}`.toLowerCase().includes(search.toLowerCase())).slice(0,16);
- return <div className="cqfd">
- <aside className="cqfd-side"><nav>{nav.map(({label,icon:Icon,href})=><Link key={label} to={href as any} className={label==='Overview'?'selected':''}><Icon size={20}/>{label}</Link>)}</nav></aside>
- <div className="cqfd-main"><header className="cqfd-top"><label className="cqfd-search"><Search size={19}/><input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Search crops and districts…"/></label><Link to="/auth" search={{role:'farmer'}}>Farmer sign in →</Link></header>
- <div className="cqfd-content"><div className="cqfd-welcome"><h1>Farmer Overview 🌾</h1><p>Preview of FarmSetu's farmer workspace. Sign in to see your actual farm data.</p></div>
- <div className="cqfd-metrics"><div className="cqfd-metric"><span className="cqfd-metricicon">🌿</span><div><small>Demo catalog listings</small><strong>52</strong><em>Unverified sample products</em></div></div><div className="cqfd-metric"><span className="cqfd-metricicon">🌾</span><div><small>Crop categories</small><strong>6</strong><em>Rice, pulses, spices and more</em></div></div><div className="cqfd-metric"><span className="cqfd-metricicon">📋</span><div><small>Demand requests</small><strong>—</strong><em>Sign in for live data</em></div></div><div className="cqfd-metric"><span className="cqfd-metricicon">₹</span><div><small>Earnings</small><strong>—</strong><em>Sign in for actual sales</em></div></div></div>
- <section className="cqfd-panel cqfd-listings"><div className="cqfd-panelhead"><h2><Sprout size={23}/> Sample Produce Listings</h2><Link className="cqfd-add" to="/auth" search={{role:'farmer'}}>Sign in to manage listings</Link></div><p className="cqfd-note">Read-only preview. All quantities and prices below are DEMO / UNVERIFIED. No purchases can be placed.</p><div className="cqfd-tablewrap"><table><thead><tr><th>Produce</th><th>Variety / Grade</th><th>District</th><th>Demo stock</th><th>Demo price/kg</th><th>Status</th></tr></thead><tbody>{rows.map(p=><tr key={p.id}><td><div className="cqfd-produce">{p.image_url&&<img src={p.image_url} alt={p.crop_name}/>}<b>{p.crop_name}</b></div></td><td>{p.variety}</td><td>{p.district}</td><td>{p.quantity} kg</td><td>₹{p.price}</td><td><span className="cqfd-status">DEMO · Unverified</span></td></tr>)}</tbody></table></div></section>
- </div></div></div>;
-}

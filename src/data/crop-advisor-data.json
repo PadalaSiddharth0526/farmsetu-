@@ -1,0 +1,2004 @@
+{
+  "DATA": {
+    "Adilabad": [
+      [
+        "Cotton",
+        "Soybean",
+        "Red Gram",
+        "Paddy",
+        "Jowar"
+      ],
+      [
+        "Bengal Gram",
+        "Jowar",
+        "Wheat",
+        "Maize",
+        "Safflower"
+      ],
+      [
+        "Sugarcane",
+        "Turmeric"
+      ],
+      [
+        "Mango",
+        "Sweet Orange",
+        "Guava"
+      ]
+    ],
+    "Bhadradri Kothagudem": [
+      [
+        "Paddy",
+        "Cotton",
+        "Maize",
+        "Red Gram"
+      ],
+      [
+        "Paddy",
+        "Maize",
+        "Groundnut",
+        "Green Gram"
+      ],
+      [
+        "Banana",
+        "Sugarcane",
+        "Papaya"
+      ],
+      [
+        "Oil Palm",
+        "Cashewnut",
+        "Mango",
+        "Cocoa"
+      ]
+    ],
+    "Hanumakonda": [
+      [
+        "Paddy",
+        "Cotton",
+        "Maize",
+        "Green Gram"
+      ],
+      [
+        "Paddy",
+        "Maize",
+        "Groundnut",
+        "Sesame"
+      ],
+      [
+        "Turmeric",
+        "Banana"
+      ],
+      [
+        "Mango",
+        "Acid Lime",
+        "Guava"
+      ]
+    ],
+    "Hyderabad": [
+      [
+        "Urban Fodder",
+        "Leafy Vegetables"
+      ],
+      [
+        "Urban Fodder",
+        "Leafy Vegetables"
+      ],
+      [],
+      [
+        "Nursery Ornamentals",
+        "Avenue/Fruit Trees"
+      ]
+    ],
+    "Jagtial": [
+      [
+        "Paddy",
+        "Cotton",
+        "Maize",
+        "Red Gram"
+      ],
+      [
+        "Paddy",
+        "Maize",
+        "Sesame",
+        "Groundnut"
+      ],
+      [
+        "Turmeric",
+        "Banana",
+        "Sugarcane"
+      ],
+      [
+        "Mango",
+        "Sweet Orange",
+        "Oil Palm"
+      ]
+    ],
+    "Jangaon": [
+      [
+        "Paddy",
+        "Cotton",
+        "Red Gram",
+        "Maize"
+      ],
+      [
+        "Paddy",
+        "Groundnut",
+        "Maize",
+        "Green Gram"
+      ],
+      [
+        "Banana",
+        "Papaya"
+      ],
+      [
+        "Mango",
+        "Sweet Orange",
+        "Acid Lime"
+      ]
+    ],
+    "Jayashankar Bhupalpally": [
+      [
+        "Paddy",
+        "Cotton",
+        "Maize",
+        "Red Gram"
+      ],
+      [
+        "Paddy",
+        "Maize",
+        "Groundnut",
+        "Green Gram"
+      ],
+      [
+        "Turmeric",
+        "Banana"
+      ],
+      [
+        "Mango",
+        "Oil Palm",
+        "Cashewnut"
+      ]
+    ],
+    "Jogulamba Gadwal": [
+      [
+        "Cotton",
+        "Paddy",
+        "Red Gram",
+        "Castor",
+        "Groundnut"
+      ],
+      [
+        "Groundnut",
+        "Paddy",
+        "Jowar",
+        "Bengal Gram"
+      ],
+      [
+        "Banana",
+        "Papaya"
+      ],
+      [
+        "Sweet Orange",
+        "Mango",
+        "Guava",
+        "Pomegranate"
+      ]
+    ],
+    "Kamareddy": [
+      [
+        "Paddy",
+        "Maize",
+        "Soybean",
+        "Cotton",
+        "Sugarcane"
+      ],
+      [
+        "Paddy",
+        "Maize",
+        "Bengal Gram",
+        "Sunflower"
+      ],
+      [
+        "Sugarcane",
+        "Turmeric",
+        "Banana"
+      ],
+      [
+        "Mango",
+        "Guava",
+        "Oil Palm"
+      ]
+    ],
+    "Karimnagar": [
+      [
+        "Paddy",
+        "Cotton",
+        "Maize",
+        "Green Gram"
+      ],
+      [
+        "Paddy",
+        "Maize",
+        "Groundnut",
+        "Sesame"
+      ],
+      [
+        "Turmeric",
+        "Banana",
+        "Papaya"
+      ],
+      [
+        "Mango",
+        "Sweet Orange",
+        "Oil Palm"
+      ]
+    ],
+    "Khammam": [
+      [
+        "Paddy",
+        "Cotton",
+        "Maize",
+        "Red Gram",
+        "Sugarcane"
+      ],
+      [
+        "Paddy",
+        "Maize",
+        "Green Gram",
+        "Groundnut"
+      ],
+      [
+        "Sugarcane",
+        "Banana",
+        "Papaya"
+      ],
+      [
+        "Oil Palm",
+        "Mango",
+        "Cashewnut",
+        "Coconut"
+      ]
+    ],
+    "Komaram Bheem Asifabad": [
+      [
+        "Cotton",
+        "Red Gram",
+        "Paddy",
+        "Soybean",
+        "Jowar"
+      ],
+      [
+        "Bengal Gram",
+        "Jowar",
+        "Paddy",
+        "Wheat"
+      ],
+      [
+        "Sugarcane",
+        "Turmeric"
+      ],
+      [
+        "Mango",
+        "Sweet Orange"
+      ]
+    ],
+    "Mahabubabad": [
+      [
+        "Paddy",
+        "Cotton",
+        "Maize",
+        "Red Gram"
+      ],
+      [
+        "Paddy",
+        "Maize",
+        "Groundnut",
+        "Green Gram"
+      ],
+      [
+        "Turmeric",
+        "Banana"
+      ],
+      [
+        "Mango",
+        "Oil Palm",
+        "Acid Lime"
+      ]
+    ],
+    "Mahabubnagar": [
+      [
+        "Paddy",
+        "Cotton",
+        "Red Gram",
+        "Castor",
+        "Ragi"
+      ],
+      [
+        "Paddy",
+        "Groundnut",
+        "Jowar",
+        "Bengal Gram"
+      ],
+      [
+        "Banana",
+        "Papaya"
+      ],
+      [
+        "Mango",
+        "Sweet Orange",
+        "Guava"
+      ]
+    ],
+    "Mancherial": [
+      [
+        "Paddy",
+        "Cotton",
+        "Maize",
+        "Red Gram"
+      ],
+      [
+        "Paddy",
+        "Maize",
+        "Black Gram",
+        "Groundnut"
+      ],
+      [
+        "Banana",
+        "Turmeric"
+      ],
+      [
+        "Mango",
+        "Oil Palm",
+        "Cashewnut"
+      ]
+    ],
+    "Medak": [
+      [
+        "Paddy",
+        "Maize",
+        "Cotton",
+        "Red Gram",
+        "Sugarcane"
+      ],
+      [
+        "Paddy",
+        "Maize",
+        "Bengal Gram",
+        "Sunflower"
+      ],
+      [
+        "Sugarcane",
+        "Banana"
+      ],
+      [
+        "Mango",
+        "Guava",
+        "Sweet Orange"
+      ]
+    ],
+    "Medchal-Malkajgiri": [
+      [
+        "Paddy",
+        "Maize",
+        "Fodder Crops",
+        "Red Gram"
+      ],
+      [
+        "Paddy",
+        "Vegetables",
+        "Fodder Crops"
+      ],
+      [
+        "Papaya",
+        "Banana"
+      ],
+      [
+        "Guava",
+        "Mango",
+        "Sapota",
+        "Grape"
+      ]
+    ],
+    "Mulugu": [
+      [
+        "Paddy",
+        "Cotton",
+        "Maize",
+        "Red Gram"
+      ],
+      [
+        "Paddy",
+        "Maize",
+        "Groundnut",
+        "Green Gram"
+      ],
+      [
+        "Turmeric",
+        "Banana"
+      ],
+      [
+        "Mango",
+        "Oil Palm",
+        "Cashewnut"
+      ]
+    ],
+    "Nagarkurnool": [
+      [
+        "Cotton",
+        "Maize",
+        "Red Gram",
+        "Paddy",
+        "Castor"
+      ],
+      [
+        "Groundnut",
+        "Paddy",
+        "Bengal Gram",
+        "Jowar",
+        "Urad"
+      ],
+      [
+        "Banana",
+        "Papaya"
+      ],
+      [
+        "Mango",
+        "Sweet Orange",
+        "Guava",
+        "Custard Apple"
+      ]
+    ],
+    "Nalgonda": [
+      [
+        "Paddy",
+        "Cotton",
+        "Red Gram",
+        "Green Gram"
+      ],
+      [
+        "Paddy",
+        "Groundnut",
+        "Bengal Gram",
+        "Sesame"
+      ],
+      [
+        "Banana",
+        "Papaya"
+      ],
+      [
+        "Sweet Orange",
+        "Acid Lime",
+        "Oil Palm",
+        "Mango"
+      ]
+    ],
+    "Narayanpet": [
+      [
+        "Cotton",
+        "Red Gram",
+        "Paddy",
+        "Bajra",
+        "Sugarcane"
+      ],
+      [
+        "Groundnut",
+        "Bengal Gram",
+        "Jowar",
+        "Paddy"
+      ],
+      [
+        "Sugarcane",
+        "Banana"
+      ],
+      [
+        "Mango",
+        "Sweet Orange",
+        "Guava"
+      ]
+    ],
+    "Nirmal": [
+      [
+        "Cotton",
+        "Soybean",
+        "Paddy",
+        "Maize",
+        "Red Gram"
+      ],
+      [
+        "Maize",
+        "Bengal Gram",
+        "Paddy",
+        "Jowar",
+        "Sunflower"
+      ],
+      [
+        "Turmeric",
+        "Sugarcane",
+        "Banana"
+      ],
+      [
+        "Mango",
+        "Oil Palm",
+        "Sweet Orange"
+      ]
+    ],
+    "Nizamabad": [
+      [
+        "Paddy",
+        "Maize",
+        "Soybean",
+        "Red Gram",
+        "Sugarcane"
+      ],
+      [
+        "Paddy",
+        "Maize",
+        "Bengal Gram",
+        "Sunflower",
+        "Urad"
+      ],
+      [
+        "Turmeric",
+        "Sugarcane",
+        "Banana"
+      ],
+      [
+        "Mango",
+        "Oil Palm",
+        "Guava"
+      ]
+    ],
+    "Peddapalli": [
+      [
+        "Paddy",
+        "Cotton",
+        "Maize",
+        "Green Gram"
+      ],
+      [
+        "Paddy",
+        "Maize",
+        "Groundnut",
+        "Sesame"
+      ],
+      [
+        "Turmeric",
+        "Banana"
+      ],
+      [
+        "Mango",
+        "Oil Palm",
+        "Sweet Orange"
+      ]
+    ],
+    "Rajanna Sircilla": [
+      [
+        "Paddy",
+        "Cotton",
+        "Maize",
+        "Red Gram"
+      ],
+      [
+        "Paddy",
+        "Maize",
+        "Sunflower",
+        "Sesame"
+      ],
+      [
+        "Turmeric",
+        "Banana"
+      ],
+      [
+        "Mango",
+        "Oil Palm",
+        "Guava"
+      ]
+    ],
+    "Rangareddy": [
+      [
+        "Cotton",
+        "Maize",
+        "Red Gram",
+        "Paddy",
+        "Jowar"
+      ],
+      [
+        "Paddy",
+        "Maize",
+        "Bengal Gram",
+        "Groundnut"
+      ],
+      [
+        "Papaya",
+        "Banana",
+        "Rose/Floriculture"
+      ],
+      [
+        "Guava",
+        "Mango",
+        "Grape",
+        "Sapota"
+      ]
+    ],
+    "Sangareddy": [
+      [
+        "Cotton",
+        "Red Gram",
+        "Maize",
+        "Soybean",
+        "Sugarcane"
+      ],
+      [
+        "Bengal Gram",
+        "Jowar",
+        "Paddy",
+        "Sunflower"
+      ],
+      [
+        "Sugarcane",
+        "Ginger",
+        "Banana"
+      ],
+      [
+        "Mango",
+        "Guava",
+        "Pomegranate"
+      ]
+    ],
+    "Siddipet": [
+      [
+        "Paddy",
+        "Cotton",
+        "Maize",
+        "Red Gram",
+        "Castor"
+      ],
+      [
+        "Paddy",
+        "Maize",
+        "Bengal Gram",
+        "Sunflower"
+      ],
+      [
+        "Banana",
+        "Papaya",
+        "Turmeric"
+      ],
+      [
+        "Mango",
+        "Sweet Orange",
+        "Guava",
+        "Oil Palm"
+      ]
+    ],
+    "Suryapet": [
+      [
+        "Paddy",
+        "Cotton",
+        "Red Gram",
+        "Green Gram"
+      ],
+      [
+        "Paddy",
+        "Groundnut",
+        "Green Gram",
+        "Sesame"
+      ],
+      [
+        "Banana",
+        "Papaya"
+      ],
+      [
+        "Sweet Orange",
+        "Acid Lime",
+        "Oil Palm",
+        "Mango"
+      ]
+    ],
+    "Vikarabad": [
+      [
+        "Cotton",
+        "Red Gram",
+        "Maize",
+        "Paddy",
+        "Jowar"
+      ],
+      [
+        "Bengal Gram",
+        "Jowar",
+        "Paddy",
+        "Safflower"
+      ],
+      [
+        "Ginger",
+        "Papaya",
+        "Banana"
+      ],
+      [
+        "Mango",
+        "Guava",
+        "Custard Apple",
+        "Sapota"
+      ]
+    ],
+    "Wanaparthy": [
+      [
+        "Paddy",
+        "Cotton",
+        "Red Gram",
+        "Castor",
+        "Groundnut"
+      ],
+      [
+        "Paddy",
+        "Groundnut",
+        "Urad (Black Gram)",
+        "Jowar"
+      ],
+      [
+        "Banana",
+        "Papaya"
+      ],
+      [
+        "Mango",
+        "Sweet Orange",
+        "Guava"
+      ]
+    ],
+    "Warangal": [
+      [
+        "Paddy",
+        "Cotton",
+        "Maize",
+        "Red Gram"
+      ],
+      [
+        "Paddy",
+        "Maize",
+        "Groundnut",
+        "Green Gram"
+      ],
+      [
+        "Turmeric",
+        "Banana"
+      ],
+      [
+        "Mango",
+        "Acid Lime",
+        "Oil Palm"
+      ]
+    ],
+    "Yadadri Bhuvanagiri": [
+      [
+        "Paddy",
+        "Cotton",
+        "Red Gram",
+        "Castor"
+      ],
+      [
+        "Paddy",
+        "Groundnut",
+        "Bengal Gram",
+        "Sesame"
+      ],
+      [
+        "Banana",
+        "Papaya"
+      ],
+      [
+        "Sweet Orange",
+        "Acid Lime",
+        "Mango",
+        "Guava"
+      ]
+    ]
+  },
+  "ONLINE_CROP_PHOTOS": {
+    "Tomato": "https://commons.wikimedia.org/wiki/Special:FilePath/Tomato%20Plant.jpg?width=640",
+    "Okra (Bhindi)": "https://commons.wikimedia.org/wiki/Special:FilePath/Okra%20-%20Abelmoschus%20esculentus%20%28Vendakka-ml%29.jpg?width=640",
+    "Brinjal": "https://commons.wikimedia.org/wiki/Special:FilePath/Brinjal%20Brinjal%20Aubergine.jpg?width=640",
+    "Ridge Gourd": "https://commons.wikimedia.org/wiki/Special:FilePath/Ridge%20gourd%20-%20Fl%C3%BCgelgurke%20-%20Luffa%20acutangula.jpg?width=640",
+    "Bottle Gourd": "https://commons.wikimedia.org/wiki/Special:FilePath/Bottle%20Gourd.png?width=640",
+    "Bitter Gourd": "https://commons.wikimedia.org/wiki/Special:FilePath/Bitter%20gourd%20Green%20Momordica%20charantia%20fruit%20with%20white%20background%2001.png?width=640",
+    "Cluster Beans": "https://commons.wikimedia.org/wiki/Special:FilePath/Cluster%20beans.jpg?width=640",
+    "Green Chilli": "https://commons.wikimedia.org/wiki/Special:FilePath/Green-chillies.jpg?width=640",
+    "Onion": "https://commons.wikimedia.org/wiki/Special:FilePath/Onions%20700x530.jpg?width=640",
+    "Potato": "https://commons.wikimedia.org/wiki/Special:FilePath/A%20Potato.jpg?width=640",
+    "Cabbage": "https://commons.wikimedia.org/wiki/Special:FilePath/Cabbage.jpg?width=640",
+    "Cauliflower": "https://commons.wikimedia.org/wiki/Special:FilePath/19%20-%20cauliflower.jpg?width=640",
+    "Carrot": "https://commons.wikimedia.org/wiki/Special:FilePath/CARROT.jpg?width=640",
+    "Beetroot": "https://commons.wikimedia.org/wiki/Special:FilePath/Beetroot.jpg?width=640",
+    "Cucumber": "https://commons.wikimedia.org/wiki/Special:FilePath/Cucumber%20from%20Denmark.jpg?width=640",
+    "Amaranthus (Thotakura)": "https://commons.wikimedia.org/wiki/Special:FilePath/Amaranthus%20tricolor.jpg?width=640",
+    "Gongura (Roselle)": "https://commons.wikimedia.org/wiki/Special:FilePath/Gongura.jpg?width=640",
+    "Malabar Spinach (Bachali)": "https://commons.wikimedia.org/wiki/Special:FilePath/Indian%20Spinach.jpg?width=640",
+    "Curry Leaves": "https://commons.wikimedia.org/wiki/Special:FilePath/Curry%20leaves.jpg?width=640",
+    "Palak (Spinach)": "https://commons.wikimedia.org/wiki/Special:FilePath/Spinach.jpg?width=640",
+    "Fenugreek (Methi)": "https://commons.wikimedia.org/wiki/Special:FilePath/Fenugreek%20leaves.jpg?width=640",
+    "Coriander (Kothimeera)": "https://commons.wikimedia.org/wiki/Special:FilePath/Coriander%20leaves.jpg?width=640",
+    "Mint (Pudina)": "https://commons.wikimedia.org/wiki/Special:FilePath/Mint%20leaves.jpg?width=640",
+    "Spring Onion": "https://commons.wikimedia.org/wiki/Special:FilePath/Young%20onion%20shoots%20at%20an%20organic%20food%20mela%20in%20India.jpg?width=640",
+    "Marigold": "https://commons.wikimedia.org/wiki/Special:FilePath/Tagetes%20erecta.jpg?width=640",
+    "Jasmine": "https://commons.wikimedia.org/wiki/Special:FilePath/Jasminum%20sambac.jpg?width=640",
+    "Crossandra": "https://commons.wikimedia.org/wiki/Special:FilePath/Crossandra%20infundibuliformis.jpg?width=640",
+    "Tuberose": "https://commons.wikimedia.org/wiki/Special:FilePath/Polianthes%20tuberosa.jpg?width=640",
+    "Rose": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosa%20rubiginosa.jpg?width=640",
+    "Chrysanthemum": "https://commons.wikimedia.org/wiki/Special:FilePath/Chrysanthemum%20morifolium.jpg?width=640",
+    "Gerbera": "https://commons.wikimedia.org/wiki/Special:FilePath/Gerbera%20jamesonii.jpg?width=640",
+    "Aster": "https://commons.wikimedia.org/wiki/Special:FilePath/Callistephus%20chinensis.jpg?width=640"
+  },
+  "dryNames": [
+    "Cotton",
+    "Soybean",
+    "Red Gram",
+    "Jowar",
+    "Bengal Gram",
+    "Wheat",
+    "Safflower",
+    "Groundnut",
+    "Green Gram",
+    "Black Gram",
+    "Sesame",
+    "Castor",
+    "Ragi",
+    "Bajra",
+    "Urad",
+    "Urad (Black Gram)",
+    "Sunflower"
+  ],
+  "wetNames": [
+    "Paddy",
+    "Maize",
+    "Sugarcane",
+    "Vegetables",
+    "Leafy Vegetables",
+    "Urban Fodder",
+    "Fodder Crops"
+  ],
+  "FRUIT_VARIETIES": {
+    "Mango": [
+      "Banganapalli",
+      "Kesar",
+      "Himayat (Imam Pasand)",
+      "Dashehari"
+    ],
+    "Guava": [
+      "Lucknow-49 (Sardar)",
+      "Allahabad Safeda",
+      "Arka Kiran",
+      "Lalit"
+    ],
+    "Banana": [
+      "Grand Naine (G-9)",
+      "Robusta",
+      "Poovan",
+      "Red Banana"
+    ],
+    "Papaya": [
+      "Red Lady 786",
+      "Arka Prabhath",
+      "Arka Surya",
+      "Sunrise Solo"
+    ],
+    "Pomegranate": [
+      "Bhagwa",
+      "Ganesh",
+      "Mridula",
+      "Arakta"
+    ],
+    "Grape": [
+      "Thompson Seedless",
+      "Tas-A-Ganesh",
+      "Sharad Seedless",
+      "Sonaka"
+    ],
+    "Grapes": [
+      "Thompson Seedless",
+      "Tas-A-Ganesh",
+      "Sharad Seedless",
+      "Sonaka"
+    ],
+    "Sapota": [
+      "Kalipatti",
+      "Cricket Ball",
+      "Pala",
+      "Kirthabharti"
+    ],
+    "Custard Apple": [
+      "Balanagar",
+      "Arka Sahan",
+      "Mammoth",
+      "Red Sitaphal"
+    ],
+    "Sweet Orange": [
+      "Sathgudi",
+      "Valencia",
+      "Mosambi (local selections)"
+    ],
+    "Acid Lime": [
+      "Balaji",
+      "Kagzi Lime",
+      "Pramalini",
+      "Vikram"
+    ],
+    "Cashewnut": [
+      "Vengurla-4",
+      "Vengurla-7",
+      "Ullal-3",
+      "BPP-8"
+    ],
+    "Coconut": [
+      "East Coast Tall",
+      "West Coast Tall",
+      "Chowghat Orange Dwarf",
+      "Kalpa Sree"
+    ],
+    "Cocoa": [
+      "VTLCH-1",
+      "VTLCH-2",
+      "VTLCH-3"
+    ]
+  },
+  "FRUIT_VARIETY_NOTES": {
+    "Mango": "Premium fresh-fruit and processing markets differ; compare local buyer demand and grade.",
+    "Guava": "High-density systems may raise output but need pruning and reliable market access.",
+    "Banana": "Grand Naine is a commercial benchmark; compare disease risk and transport costs.",
+    "Papaya": "Check virus pressure, fruit size preferences and nursery authenticity.",
+    "Pomegranate": "Bhagwa can target premium markets; disease management and grading costs matter.",
+    "Grape": "Seedless table grapes may earn premiums, but trellising, pruning and cold chain cost more.",
+    "Grapes": "Seedless table grapes may earn premiums, but trellising, pruning and cold chain cost more."
+  },
+  "FRUIT_TELUGU_NAMES": {
+    "Mango": "మామిడి",
+    "Guava": "జామ",
+    "Banana": "అరటి",
+    "Papaya": "బొప్పాయి",
+    "Pomegranate": "దానిమ్మ",
+    "Grape": "ద్రాక్ష",
+    "Grapes": "ద్రాక్ష",
+    "Sapota": "సపోటా",
+    "Custard Apple": "సీతాఫలం",
+    "Sweet Orange": "బత్తాయి",
+    "Acid Lime": "నిమ్మ",
+    "Cashewnut": "జీడిమామిడి",
+    "Coconut": "కొబ్బరి",
+    "Cocoa": "కోకో"
+  },
+  "COMPARE_GROUPS": {
+    "grains": [
+      "Paddy",
+      "Maize",
+      "Jowar",
+      "Wheat",
+      "Ragi",
+      "Bajra"
+    ],
+    "pulses": [
+      "Red Gram",
+      "Bengal Gram",
+      "Green Gram",
+      "Black Gram",
+      "Urad",
+      "Urad (Black Gram)"
+    ],
+    "oilseeds": [
+      "Groundnut",
+      "Soybean",
+      "Sunflower",
+      "Sesame",
+      "Safflower",
+      "Castor"
+    ],
+    "vegetables": [
+      "Tomato",
+      "Okra (Bhindi)",
+      "Brinjal",
+      "Ridge Gourd",
+      "Bottle Gourd",
+      "Bitter Gourd",
+      "Cluster Beans",
+      "Green Chilli",
+      "Onion",
+      "Potato",
+      "Cabbage",
+      "Cauliflower",
+      "Carrot",
+      "Beetroot",
+      "Cucumber"
+    ],
+    "leafy": [
+      "Amaranthus (Thotakura)",
+      "Gongura (Roselle)",
+      "Malabar Spinach (Bachali)",
+      "Curry Leaves",
+      "Palak (Spinach)",
+      "Fenugreek (Methi)",
+      "Coriander (Kothimeera)",
+      "Mint (Pudina)",
+      "Spring Onion"
+    ],
+    "flowers": [
+      "Marigold",
+      "Jasmine",
+      "Crossandra",
+      "Tuberose",
+      "Rose",
+      "Chrysanthemum",
+      "Gerbera",
+      "Aster"
+    ],
+    "fruit": [
+      "Mango",
+      "Guava",
+      "Banana",
+      "Papaya",
+      "Pomegranate",
+      "Grape",
+      "Grapes",
+      "Sapota",
+      "Custard Apple",
+      "Sweet Orange",
+      "Acid Lime",
+      "Cashewnut",
+      "Coconut",
+      "Cocoa",
+      "Oil Palm"
+    ],
+    "commercial": [
+      "Sugarcane",
+      "Turmeric",
+      "Ginger"
+    ]
+  },
+  "COMPARE_TEXT": {
+    "en": {
+      "heading": "Profit potential: advantages (+) and disadvantages (−)",
+      "positive": "Advantages (+)",
+      "negative": "Disadvantages (−)",
+      "metrics": "Compare selling price, yield, costs, water and disease risk",
+      "note": "These are qualitative trade-offs, not verified prices, yield forecasts or profit rankings. Confirm with local market prices, soil tests and agricultural extension.",
+      "groups": {
+        "grains": [
+          [
+            "Established food or feed demand; grain may be storable after proper drying.",
+            "Mechanized operations may reduce labour where suitable."
+          ],
+          [
+            "Returns can be sensitive to market prices and input costs.",
+            "Water, pest and weather risks vary by crop and variety."
+          ]
+        ],
+        "pulses": [
+          [
+            "Often lower irrigation demand than water-intensive cereals under suitable conditions.",
+            "Legume rotations may benefit soil management."
+          ],
+          [
+            "Pod pests and wilt or viral diseases can reduce yield.",
+            "Yield and selling price may fluctuate."
+          ]
+        ],
+        "oilseeds": [
+          [
+            "Oil and food processing markets may offer multiple sales channels.",
+            "Some species suit relatively dry conditions."
+          ],
+          [
+            "Price volatility and quality grading affect returns.",
+            "Pests and moisture stress during seed filling can reduce yield."
+          ]
+        ],
+        "vegetables": [
+          [
+            "Frequent harvests can create multiple selling opportunities.",
+            "Fresh local markets may pay premiums for good quality."
+          ],
+          [
+            "Produce is perishable; unsold stock can lose value quickly.",
+            "Harvest labour, pest management and price swings can be substantial."
+          ]
+        ],
+        "leafy": [
+          [
+            "Short growing cycles can allow repeat harvests.",
+            "Urban markets may offer regular demand."
+          ],
+          [
+            "Leaves are highly perishable and need hygienic handling.",
+            "Water quality and frequent harvesting increase management needs."
+          ]
+        ],
+        "flowers": [
+          [
+            "Festival and event demand can create premium selling windows.",
+            "Some flowers allow repeated picking."
+          ],
+          [
+            "Demand and prices can change sharply by date and quality.",
+            "Harvest labour, handling and spoilage costs can be high."
+          ]
+        ],
+        "fruit": [
+          [
+            "Quality fruit may access premium fresh or processing markets.",
+            "Established orchards can produce over multiple seasons."
+          ],
+          [
+            "Establishment cost and time to first harvest can be significant.",
+            "Weather, diseases, grading and transport can affect margins."
+          ]
+        ],
+        "commercial": [
+          [
+            "Processing or bulk buyers may support larger sales volumes.",
+            "Quality grades can create differentiated markets."
+          ],
+          [
+            "Longer crop duration can tie up land and working capital.",
+            "Input costs, buyer access and post-harvest losses may be substantial."
+          ]
+        ]
+      },
+      "special": {
+        "Paddy": [
+          [
+            "Established rice markets and familiar cultivation practices."
+          ],
+          [
+            "Irrigation demand and labour or mechanization costs can be high."
+          ]
+        ],
+        "Cotton": [
+          [
+            "Textile-sector demand offers a commercial market."
+          ],
+          [
+            "Pest pressure and repeated crop protection costs can be substantial."
+          ]
+        ],
+        "Maize": [
+          [
+            "Food, feed and industrial demand provide sales channels."
+          ],
+          [
+            "Moisture stress at flowering and fall armyworm can reduce yield."
+          ]
+        ],
+        "Tomato": [
+          [
+            "Frequent picking and nearby fresh markets can support sales."
+          ],
+          [
+            "Prices can collapse during gluts; fruit spoils quickly."
+          ]
+        ],
+        "Onion": [
+          [
+            "Bulbs can be stored after proper curing, depending on variety and conditions."
+          ],
+          [
+            "Storage losses and seasonal price volatility are significant."
+          ]
+        ],
+        "Banana": [
+          [
+            "High-yielding commercial cultivars have established markets."
+          ],
+          [
+            "Needs reliable water and careful handling; wind and wilt are risks."
+          ]
+        ],
+        "Mango": [
+          [
+            "Premium cultivars may attract higher prices for graded fruit."
+          ],
+          [
+            "Seasonal harvest, alternate bearing and long orchard establishment period."
+          ]
+        ],
+        "Grape": [
+          [
+            "Seedless table grapes may attract premium buyers."
+          ],
+          [
+            "Trellising, pruning, disease control and cold-chain costs can be high."
+          ]
+        ],
+        "Grapes": [
+          [
+            "Seedless table grapes may attract premium buyers."
+          ],
+          [
+            "Trellising, pruning, disease control and cold-chain costs can be high."
+          ]
+        ],
+        "Pomegranate": [
+          [
+            "Quality fruit can reach premium fresh-fruit markets."
+          ],
+          [
+            "Bacterial blight and fruit cracking may cause losses."
+          ]
+        ],
+        "Turmeric": [
+          [
+            "Drying and processing create storage and marketing options."
+          ],
+          [
+            "Long duration, rhizome rot and curing costs affect returns."
+          ]
+        ],
+        "Sugarcane": [
+          [
+            "Potential access to mill or jaggery buyers."
+          ],
+          [
+            "Very high water demand in many systems and long crop duration."
+          ]
+        ],
+        "Gerbera": [
+          [
+            "Protected cultivation may supply premium cut-flower markets."
+          ],
+          [
+            "High capital cost and temperature/disease management requirements."
+          ]
+        ],
+        "Marigold": [
+          [
+            "Festival demand can support high-volume local sales."
+          ],
+          [
+            "Flower prices fluctuate and picking is labour intensive."
+          ]
+        ]
+      }
+    },
+    "te": {
+      "heading": "లాభదాయకత పరిశీలన: ప్రయోజనాలు (+), ప్రతికూలతలు (−)",
+      "positive": "ప్రయోజనాలు (+)",
+      "negative": "ప్రతికూలతలు (−)",
+      "metrics": "అమ్మకపు ధర, దిగుబడి, ఖర్చులు, నీటి అవసరం, తెగుళ్ల ప్రమాదాన్ని పోల్చండి",
+      "note": "ఇవి సాధారణ పోలికలు మాత్రమే. ఖచ్చితమైన ధరలు, దిగుబడి అంచనాలు లేదా లాభాల ర్యాంకింగులు కావు. స్థానిక మార్కెట్ ధరలు, నేల పరీక్ష, వ్యవసాయ నిపుణుల సలహాతో నిర్ణయించండి.",
+      "groups": {
+        "grains": [
+          [
+            "ఆహారం లేదా పశుగ్రాసం కోసం స్థిరమైన డిమాండ్ ఉండవచ్చు.",
+            "అనుకూల పరిస్థితుల్లో యంత్రాల వాడకంతో కూలీ ఖర్చు తగ్గవచ్చు."
+          ],
+          [
+            "మార్కెట్ ధరలు, పెట్టుబడి ఖర్చులు లాభాన్ని ప్రభావితం చేస్తాయి.",
+            "నీటి అవసరం, వాతావరణం, పురుగుల ప్రమాదం పంటను బట్టి మారుతాయి."
+          ]
+        ],
+        "pulses": [
+          [
+            "అనుకూల ప్రాంతాల్లో కొన్ని పప్పుధాన్యాలకు తక్కువ నీరు సరిపోవచ్చు.",
+            "పంట మార్పిడి ద్వారా నేల నిర్వహణకు ఉపయోగపడవచ్చు."
+          ],
+          [
+            "కాయ తొలిచే పురుగులు, ఎండు తెగుళ్లు దిగుబడిని తగ్గించవచ్చు.",
+            "దిగుబడి, మార్కెట్ ధరలు మారవచ్చు."
+          ]
+        ],
+        "oilseeds": [
+          [
+            "నూనె, ఆహార పరిశ్రమల ద్వారా అమ్మకపు అవకాశాలు ఉండవచ్చు.",
+            "కొన్ని పంటలు తక్కువ వర్షపాతం ప్రాంతాలకు సరిపోవచ్చు."
+          ],
+          [
+            "ధరల్లో మార్పులు, నాణ్యత ఆధారిత కోతలు రావచ్చు.",
+            "గింజలు నిండే సమయంలో తేమ లోపం దిగుబడిని తగ్గిస్తుంది."
+          ]
+        ],
+        "vegetables": [
+          [
+            "తరచుగా కోతల ద్వారా పలుమార్లు అమ్మే అవకాశం ఉంటుంది.",
+            "మంచి నాణ్యతకు సమీప మార్కెట్లలో అధిక ధర లభించవచ్చు."
+          ],
+          [
+            "కూరగాయలు త్వరగా పాడవుతాయి.",
+            "కూలీ ఖర్చు, తెగుళ్లు, ధరల హెచ్చుతగ్గులు ఎక్కువగా ఉండవచ్చు."
+          ]
+        ],
+        "leafy": [
+          [
+            "తక్కువ కాలంలో పంట కోతకు రావచ్చు.",
+            "పట్టణ మార్కెట్లలో క్రమమైన డిమాండ్ ఉండవచ్చు."
+          ],
+          [
+            "ఆకుకూరలు త్వరగా వాడిపోతాయి; శుభ్రమైన నిర్వహణ అవసరం.",
+            "నీటి నాణ్యత, తరచు కోతలపై శ్రద్ధ అవసరం."
+          ]
+        ],
+        "flowers": [
+          [
+            "పండుగలు, వేడుకల సమయంలో మంచి ధర రావచ్చు.",
+            "కొన్ని పూల పంటల్లో పలుమార్లు కోత సాధ్యం."
+          ],
+          [
+            "రోజువారీ డిమాండ్, ధరలు వేగంగా మారవచ్చు.",
+            "కోత కూలీలు, రవాణా, పూలు పాడయ్యే ప్రమాదం ఉన్నాయి."
+          ]
+        ],
+        "fruit": [
+          [
+            "మంచి నాణ్యత పండ్లకు ప్రీమియం మార్కెట్లు ఉండవచ్చు.",
+            "స్థిరపడిన తోటల నుంచి అనేక సీజన్లలో దిగుబడి రావచ్చు."
+          ],
+          [
+            "తోట స్థాపన ఖర్చు, మొదటి దిగుబడికి సమయం ఎక్కువ కావచ్చు.",
+            "వాతావరణం, తెగుళ్లు, గ్రేడింగ్, రవాణా లాభాన్ని ప్రభావితం చేస్తాయి."
+          ]
+        ],
+        "commercial": [
+          [
+            "ప్రాసెసింగ్, పెద్ద కొనుగోలుదారుల మార్కెట్లు ఉండవచ్చు.",
+            "నాణ్యత ఆధారంగా వేర్వేరు ధరలు రావచ్చు."
+          ],
+          [
+            "ఎక్కువ సాగు కాలం వల్ల పెట్టుబడి నిలిచిపోవచ్చు.",
+            "ఖర్చులు, కొనుగోలుదారుల లభ్యత, నిల్వ నష్టాలు ప్రభావితం చేస్తాయి."
+          ]
+        ]
+      },
+      "special": {
+        "Paddy": [
+          [
+            "వరి ధాన్యానికి స్థిరమైన మార్కెట్ వ్యవస్థలు ఉన్నాయి."
+          ],
+          [
+            "నీరు, కూలీలు లేదా యంత్రాల ఖర్చు ఎక్కువ కావచ్చు."
+          ]
+        ],
+        "Cotton": [
+          [
+            "వస్త్ర పరిశ్రమ నుంచి వాణిజ్య డిమాండ్ ఉంటుంది."
+          ],
+          [
+            "పురుగులు, నివారణ చర్యల ఖర్చు ఎక్కువ కావచ్చు."
+          ]
+        ],
+        "Maize": [
+          [
+            "ఆహారం, పశుగ్రాసం, పరిశ్రమలకు అమ్మకపు అవకాశాలు ఉన్నాయి."
+          ],
+          [
+            "పూత సమయంలో నీటి లోపం, ఫాల్ ఆర్మీవార్మ్ వల్ల నష్టం రావచ్చు."
+          ]
+        ],
+        "Tomato": [
+          [
+            "తరచు కోతలు, సమీప మార్కెట్ల ద్వారా అమ్మకాలు సాధ్యం."
+          ],
+          [
+            "అధిక సరఫరా సమయంలో ధర పడిపోవచ్చు; త్వరగా పాడవుతుంది."
+          ]
+        ],
+        "Onion": [
+          [
+            "సరైన ఎండబెట్టడం ద్వారా కొంతకాలం నిల్వ చేయవచ్చు."
+          ],
+          [
+            "నిల్వ నష్టాలు, ధరల హెచ్చుతగ్గులు ఎక్కువ."
+          ]
+        ],
+        "Banana": [
+          [
+            "వాణిజ్య రకాల కోసం స్థిరమైన మార్కెట్లు ఉన్నాయి."
+          ],
+          [
+            "నీరు, రవాణా జాగ్రత్తలు అవసరం; గాలి, ఎండు తెగుళ్ల ప్రమాదం."
+          ]
+        ],
+        "Mango": [
+          [
+            "నాణ్యమైన రకాలకు మంచి ధర వచ్చే అవకాశం ఉంది."
+          ],
+          [
+            "సీజనల్ కోత, మారే దిగుబడి, తోట స్థాపనకు ఎక్కువ సమయం."
+          ]
+        ],
+        "Grape": [
+          [
+            "గింజలేని ద్రాక్షకు అధిక ధర వచ్చే అవకాశం ఉంది."
+          ],
+          [
+            "పందిరి, కత్తిరింపు, తెగుళ్ల నివారణ, శీతల రవాణా ఖర్చు ఎక్కువ."
+          ]
+        ],
+        "Grapes": [
+          [
+            "గింజలేని ద్రాక్షకు అధిక ధర వచ్చే అవకాశం ఉంది."
+          ],
+          [
+            "పందిరి, కత్తిరింపు, తెగుళ్ల నివారణ, శీతల రవాణా ఖర్చు ఎక్కువ."
+          ]
+        ],
+        "Pomegranate": [
+          [
+            "మంచి నాణ్యత దానిమ్మకు ప్రీమియం మార్కెట్లు ఉండవచ్చు."
+          ],
+          [
+            "బ్యాక్టీరియల్ బ్లైట్, పండ్లు పగలడం వల్ల నష్టం."
+          ]
+        ],
+        "Turmeric": [
+          [
+            "ఎండబెట్టడం, ప్రాసెసింగ్ ద్వారా నిల్వ, అమ్మకపు అవకాశాలు."
+          ],
+          [
+            "ఎక్కువ సాగు కాలం, దుంప కుళ్లు, ప్రాసెసింగ్ ఖర్చులు."
+          ]
+        ],
+        "Sugarcane": [
+          [
+            "చక్కెర మిల్లులు లేదా బెల్లం తయారీదారులకు అమ్మే అవకాశం."
+          ],
+          [
+            "ఎక్కువ నీటి అవసరం, దీర్ఘకాల సాగు."
+          ]
+        ],
+        "Gerbera": [
+          [
+            "రక్షిత సాగులో కట్ ఫ్లవర్ మార్కెట్ అవకాశం."
+          ],
+          [
+            "ప్రారంభ పెట్టుబడి, ఉష్ణోగ్రత, తెగుళ్ల నిర్వహణ ఖర్చు ఎక్కువ."
+          ]
+        ],
+        "Marigold": [
+          [
+            "పండుగల సమయంలో అధిక డిమాండ్ ఉండవచ్చు."
+          ],
+          [
+            "ధరలు మారుతాయి; పూల కోతకు ఎక్కువ కూలీలు అవసరం."
+          ]
+        ]
+      }
+    }
+  },
+  "CROP_GUIDANCE": {
+    "Paddy": [
+      "Maintain level fields and manage standing water carefully.",
+      "Monitor stem borer, blast and leaf colour; avoid excess nitrogen."
+    ],
+    "Cotton": [
+      "Use well-drained soil and avoid prolonged waterlogging.",
+      "Scout regularly for sucking pests and bollworms; follow local IPM guidance."
+    ],
+    "Maize": [
+      "Prioritize good drainage and adequate moisture at tasseling and silking.",
+      "Watch for fall armyworm; inspect leaf whorls early."
+    ],
+    "Red Gram": [
+      "Avoid waterlogging and use well-drained fields.",
+      "Monitor pod borers around flowering and pod formation."
+    ],
+    "Groundnut": [
+      "Choose loose, well-drained soil and ensure adequate calcium where testing indicates a need.",
+      "Avoid water stress during pegging and pod filling."
+    ],
+    "Soybean": [
+      "Use well-drained soil and locally recommended seed inoculation.",
+      "Monitor leaf-feeding insects and avoid standing water."
+    ],
+    "Jowar": [
+      "Select a locally suitable variety and establish a good plant stand.",
+      "Monitor shoot fly and stem borer; avoid harvesting stressed fodder without guidance."
+    ],
+    "Bengal Gram": [
+      "Avoid waterlogging and excessive irrigation.",
+      "Monitor pod borer and wilt symptoms."
+    ],
+    "Green Gram": [
+      "Use well-drained fields and avoid excessive nitrogen.",
+      "Monitor yellow mosaic symptoms and sucking pests."
+    ],
+    "Black Gram": [
+      "Avoid waterlogging; use healthy seed.",
+      "Monitor yellow mosaic and pod pests."
+    ],
+    "Urad": [
+      "Avoid waterlogging; use healthy seed.",
+      "Monitor yellow mosaic and pod pests."
+    ],
+    "Sunflower": [
+      "Ensure drainage and pollinator access during flowering.",
+      "Watch for head rot and insect damage."
+    ],
+    "Sugarcane": [
+      "Plan irrigation and nutrient supply for the long crop duration.",
+      "Use disease-free planting material and monitor borers."
+    ],
+    "Turmeric": [
+      "Use loose, organic-matter-rich, well-drained soil.",
+      "Maintain moisture without stagnation and inspect rhizomes for rot."
+    ],
+    "Banana": [
+      "Provide reliable moisture and wind protection.",
+      "Maintain drainage and inspect for wilt and leaf disease."
+    ],
+    "Papaya": [
+      "Plant in well-drained soil and protect from waterlogging.",
+      "Monitor viral symptoms and sucking insects."
+    ],
+    "Mango": [
+      "Allow enough spacing and prune for canopy airflow.",
+      "Monitor flowering and fruit pests; irrigate young trees as needed."
+    ],
+    "Oil Palm": [
+      "Confirm dependable year-round irrigation before planting.",
+      "Plan long-term nutrient management and harvest access."
+    ],
+    "Tomato": [
+      "Use staking or support where appropriate and maintain even soil moisture.",
+      "Scout for fruit borer, whitefly and leaf curl symptoms."
+    ],
+    "Okra (Bhindi)": [
+      "Pick tender pods frequently to maintain quality.",
+      "Monitor whitefly, jassids and yellow vein mosaic."
+    ],
+    "Brinjal": [
+      "Use healthy seedlings and maintain consistent moisture.",
+      "Monitor shoot and fruit borer; remove affected shoots."
+    ],
+    "Ridge Gourd": [
+      "Provide trellis support and adequate drainage.",
+      "Protect pollinators and inspect for fruit fly damage."
+    ],
+    "Bottle Gourd": [
+      "Provide climbing support and consistent irrigation.",
+      "Monitor fruit fly and powdery mildew."
+    ],
+    "Bitter Gourd": [
+      "Use a trellis and avoid waterlogging.",
+      "Monitor fruit fly and downy mildew."
+    ],
+    "Cluster Beans": [
+      "Grow in well-drained soil and avoid excess nitrogen.",
+      "Watch for sucking pests and harvest tender pods regularly."
+    ],
+    "Green Chilli": [
+      "Use well-drained soil and avoid irregular watering.",
+      "Monitor thrips, mites and leaf curl."
+    ],
+    "Onion": [
+      "Keep beds well drained and avoid waterlogging.",
+      "Reduce irrigation near maturity and cure bulbs properly."
+    ],
+    "Potato": [
+      "Use certified healthy seed tubers and maintain soil moisture.",
+      "Scout for late blight and avoid exposing tubers to sunlight."
+    ],
+    "Cabbage": [
+      "Maintain consistent moisture for head formation.",
+      "Monitor diamondback moth and caterpillars."
+    ],
+    "Cauliflower": [
+      "Use season-appropriate varieties and steady nutrition.",
+      "Monitor caterpillars and protect developing curds."
+    ],
+    "Carrot": [
+      "Prepare deep, loose, stone-free soil.",
+      "Thin seedlings and maintain steady moisture for straight roots."
+    ],
+    "Beetroot": [
+      "Use loose, well-drained soil and avoid uneven moisture.",
+      "Thin seedlings and harvest roots at marketable size."
+    ],
+    "Cucumber": [
+      "Use support where appropriate and water consistently.",
+      "Monitor fruit fly, mildew and pollinator activity."
+    ],
+    "Amaranthus (Thotakura)": [
+      "Use fertile, well-drained beds and regular light irrigation.",
+      "Harvest tender leaves hygienically and avoid contaminated water."
+    ],
+    "Gongura (Roselle)": [
+      "Grow in well-drained soil and harvest tender foliage.",
+      "Monitor leaf-chewing pests and maintain clean harvest practices."
+    ],
+    "Malabar Spinach (Bachali)": [
+      "Provide climbing support and consistent moisture.",
+      "Harvest tender shoots frequently."
+    ],
+    "Curry Leaves": [
+      "Plant in well-drained soil and prune for fresh leaf growth.",
+      "Monitor psyllids and leaf-feeding pests."
+    ],
+    "Palak (Spinach)": [
+      "Maintain steady moisture and avoid heat stress.",
+      "Harvest clean leaves and monitor leaf spots."
+    ],
+    "Fenugreek (Methi)": [
+      "Sow in fine, well-drained soil.",
+      "Harvest tender greens and avoid overwatering."
+    ],
+    "Coriander (Kothimeera)": [
+      "Use fine seedbeds and moderate irrigation.",
+      "Avoid waterlogging and harvest before bolting for leafy use."
+    ],
+    "Mint (Pudina)": [
+      "Keep soil evenly moist with good drainage.",
+      "Control spreading growth and monitor leaf spots."
+    ],
+    "Spring Onion": [
+      "Maintain moisture for tender stems.",
+      "Harvest before bulbs become oversized; monitor thrips."
+    ],
+    "Marigold": [
+      "Pinch plants where appropriate to encourage branching.",
+      "Remove spent flowers and watch for thrips."
+    ],
+    "Jasmine": [
+      "Prune at the locally suitable time to promote flowering.",
+      "Maintain drainage and inspect buds for pests."
+    ],
+    "Crossandra": [
+      "Provide well-drained soil and protect from prolonged waterlogging.",
+      "Harvest blooms regularly and watch for mites."
+    ],
+    "Tuberose": [
+      "Use healthy bulbs and well-drained beds.",
+      "Monitor thrips and avoid bulb rot."
+    ],
+    "Rose": [
+      "Provide sunlight, airflow and regular pruning.",
+      "Monitor aphids, thrips and powdery mildew."
+    ],
+    "Chrysanthemum": [
+      "Use pinching and spacing suitable for the desired flower type.",
+      "Monitor aphids and fungal leaf spots."
+    ],
+    "Gerbera": [
+      "Use raised beds or well-drained growing media.",
+      "Avoid wetting crowns and maintain airflow."
+    ],
+    "Aster": [
+      "Maintain drainage and appropriate spacing.",
+      "Monitor wilt and leaf-feeding insects."
+    ]
+  },
+  "CROP_TELUGU": {
+    "Paddy": "వరి",
+    "Cotton": "పత్తి",
+    "Maize": "మొక్కజొన్న",
+    "Red Gram": "కందులు",
+    "Groundnut": "వేరుశనగ",
+    "Soybean": "సోయాబీన్",
+    "Jowar": "జొన్న",
+    "Bengal Gram": "శనగలు",
+    "Green Gram": "పెసలు",
+    "Black Gram": "మినుములు",
+    "Sunflower": "పొద్దుతిరుగుడు",
+    "Sugarcane": "చెరకు",
+    "Turmeric": "పసుపు",
+    "Banana": "అరటి",
+    "Papaya": "బొప్పాయి",
+    "Mango": "మామిడి",
+    "Oil Palm": "ఆయిల్ పామ్",
+    "Tomato": "టమాటా",
+    "Okra (Bhindi)": "బెండకాయ",
+    "Brinjal": "వంకాయ",
+    "Ridge Gourd": "బీరకాయ",
+    "Bottle Gourd": "సొరకాయ",
+    "Bitter Gourd": "కాకరకాయ",
+    "Cluster Beans": "గోరుచిక్కుడు",
+    "Green Chilli": "పచ్చిమిర్చి",
+    "Onion": "ఉల్లిపాయ",
+    "Potato": "బంగాళాదుంప",
+    "Cabbage": "క్యాబేజీ",
+    "Cauliflower": "కాలీఫ్లవర్",
+    "Carrot": "క్యారెట్",
+    "Beetroot": "బీట్‌రూట్",
+    "Cucumber": "దోసకాయ",
+    "Amaranthus (Thotakura)": "తోటకూర",
+    "Gongura (Roselle)": "గోంగూర",
+    "Malabar Spinach (Bachali)": "బచ్చలికూర",
+    "Curry Leaves": "కరివేపాకు",
+    "Palak (Spinach)": "పాలకూర",
+    "Fenugreek (Methi)": "మెంతికూర",
+    "Coriander (Kothimeera)": "కొత్తిమీర",
+    "Mint (Pudina)": "పుదీనా",
+    "Spring Onion": "ఉల్లికాడలు",
+    "Marigold": "బంతి",
+    "Jasmine": "మల్లె",
+    "Crossandra": "కనకాంబరం",
+    "Tuberose": "సంపంగి",
+    "Rose": "గులాబీ",
+    "Chrysanthemum": "చామంతి",
+    "Gerbera": "జెర్బెరా",
+    "Aster": "ఆస్టర్"
+  },
+  "TXT": {
+    "en": {
+      "title": "Growing recommendations",
+      "context": "Based on your selected soil inputs",
+      "location": "District",
+      "season": "Season",
+      "ph": "Soil pH",
+      "nitrogen": "Nitrogen",
+      "phosphorus": "Phosphorus",
+      "potassium": "Potassium",
+      "carbon": "Organic carbon",
+      "missing": "not entered",
+      "low": "lower part of the entered range",
+      "high": "higher part of the entered range",
+      "normal": "middle part of the entered range",
+      "acid": "Soil pH is acidic; confirm crop-specific suitability and consider a lab test before applying amendments.",
+      "alkaline": "Soil pH is alkaline; check micronutrient availability with a soil test.",
+      "neutral": "Soil pH is near neutral; verify the selected crop’s preferred pH.",
+      "nlow": "Nitrogen is toward the low end of the input range; request a soil-test-based nutrient plan.",
+      "nhigh": "Nitrogen is toward the high end of the input range; avoid unnecessary extra nitrogen.",
+      "plow": "Phosphorus is toward the low end of the input range; check soil-test recommendations before application.",
+      "klow": "Potassium is toward the low end of the input range; verify crop demand with a soil test.",
+      "oclow": "Organic carbon is relatively low in the input range; discuss compost and residue management.",
+      "noSoil": "Enter soil values for more tailored guidance.",
+      "check": "These are rule-based observations, not a validated ML suitability score. Input ranges are form validation limits, not laboratory deficiency thresholds. Confirm with local agricultural extension and laboratory units."
+    },
+    "te": {
+      "title": "సాగు సూచనలు",
+      "context": "మీరు ఇచ్చిన నేల వివరాల ఆధారంగా",
+      "location": "జిల్లా",
+      "season": "సీజన్",
+      "ph": "నేల pH",
+      "nitrogen": "నత్రజని",
+      "phosphorus": "భాస్వరం",
+      "potassium": "పొటాషియం",
+      "carbon": "సేంద్రియ కర్బనం",
+      "missing": "నమోదు చేయలేదు",
+      "low": "ఇచ్చిన పరిధిలో తక్కువ వైపు",
+      "high": "ఇచ్చిన పరిధిలో ఎక్కువ వైపు",
+      "normal": "ఇచ్చిన పరిధి మధ్యలో",
+      "acid": "నేల pH ఆమ్ల స్వభావంలో ఉంది. ఈ పంటకు అనుకూలతను నేల పరీక్షతో నిర్ధారించి మాత్రమే సవరణలు చేయండి.",
+      "alkaline": "నేల pH క్షార స్వభావంలో ఉంది. సూక్ష్మ పోషకాల లభ్యతను నేల పరీక్ష ద్వారా పరిశీలించండి.",
+      "neutral": "నేల pH తటస్థానికి దగ్గరగా ఉంది. ఈ పంటకు సరైన pH పరిధిని స్థానిక నిపుణులతో నిర్ధారించండి.",
+      "nlow": "నత్రజని నమోదు పరిధిలో తక్కువ వైపు ఉంది. నేల పరీక్ష ఆధారంగా ఎరువుల ప్రణాళిక తీసుకోండి.",
+      "nhigh": "నత్రజని నమోదు పరిధిలో ఎక్కువ వైపు ఉంది. అవసరం లేకుండా అదనపు నత్రజని వేయవద్దు.",
+      "plow": "భాస్వరం నమోదు పరిధిలో తక్కువ వైపు ఉంది. ఎరువు వేసే ముందు నేల పరీక్ష సిఫార్సులను పరిశీలించండి.",
+      "klow": "పొటాషియం నమోదు పరిధిలో తక్కువ వైపు ఉంది. పంట అవసరాన్ని నేల పరీక్షతో నిర్ధారించండి.",
+      "oclow": "సేంద్రియ కర్బనం నమోదు పరిధిలో తక్కువ వైపు ఉంది. కంపోస్టు, పంట అవశేషాల నిర్వహణపై సలహా తీసుకోండి.",
+      "noSoil": "వ్యక్తిగత సూచనల కోసం నేల వివరాలు నమోదు చేయండి.",
+      "check": "ఇవి నియమాల ఆధారిత సూచనలు మాత్రమే; ధృవీకరించిన ML అనుకూలత స్కోరు కాదు. ఫారమ్ పరిమితులు పోషక లోపం నిర్ధారణ ప్రమాణాలు కావు. స్థానిక వ్యవసాయ అధికారి, నేల పరీక్ష ఫలితాలను సంప్రదించండి."
+    }
+  },
+  "CROP_TELUGU_TIPS": {
+    "Paddy": [
+      "పొలాన్ని సమంగా ఉంచి నీటి నిర్వహణ చేయండి.",
+      "కాండం తొలిచే పురుగు, అగ్గితెగులు లక్షణాలను గమనించండి."
+    ],
+    "Cotton": [
+      "నీరు నిల్వ ఉండకుండా చూసుకోండి.",
+      "రసం పీల్చే పురుగులు, కాయ తొలిచే పురుగుల కోసం పరిశీలించండి."
+    ],
+    "Maize": [
+      "పూత, కంకి దశల్లో తగిన తేమ ఉండేలా చూసుకోండి.",
+      "ఫాల్ ఆర్మీవార్మ్ లక్షణాల కోసం ఆకుల మధ్య భాగాన్ని పరిశీలించండి."
+    ],
+    "Tomato": [
+      "మొక్కలకు అవసరమైన ఆసరా ఇచ్చి సమాన తేమను నిర్వహించండి.",
+      "పండు తొలిచే పురుగు, తెల్లదోమ, ఆకు ముడత లక్షణాలను గమనించండి."
+    ],
+    "Brinjal": [
+      "ఆరోగ్యకరమైన నారును వాడండి.",
+      "కొమ్మ, కాయ తొలిచే పురుగులున్న భాగాలను తొలగించండి."
+    ],
+    "Okra (Bhindi)": [
+      "లేత కాయలను తరచుగా కోయండి.",
+      "పసుపు నరాల మొజాయిక్, తెల్లదోమలను గమనించండి."
+    ],
+    "Marigold": [
+      "కొమ్మలు పెరగడానికి తగిన సమయంలో పించింగ్ చేయండి.",
+      "వాడిన పూలను తొలగించి త్రిప్స్‌ను గమనించండి."
+    ],
+    "Rose": [
+      "సూర్యరశ్మి, గాలి ప్రసరణ ఉండేలా కత్తిరింపు చేయండి.",
+      "పేనుబంక, త్రిప్స్, బూజు తెగులు లక్షణాలను గమనించండి."
+    ]
+  },
+  "UI_TRANSLATIONS": {
+    "Crop Recommendation": "పంట సిఫార్సులు",
+    "Language": "భాష",
+    "🌱 CROP RECOMMENDATION": "🌱 పంట సిఫార్సులు",
+    "Which Crop Should I Grow?": "నేను ఏ పంట సాగు చేయాలి?",
+    "Choose your district and season. Explore crops for more water, less water, and long-term cultivation.": "మీ జిల్లా, సీజన్ ఎంచుకోండి. ఎక్కువ నీరు, తక్కువ నీరు మరియు దీర్ఘకాల సాగుకు అనువైన పంటలను పరిశీలించండి.",
+    "District": "జిల్లా",
+    "Season": "సీజన్",
+    "Farm size (acres)": "పొలం విస్తీర్ణం (ఎకరాలు)",
+    "Previous crop (optional)": "గత పంట (ఐచ్ఛికం)",
+    "Soil values": "నేల వివరాలు",
+    "(optional; default values provided)": "(ఐచ్ఛికం; ప్రారంభ విలువలు ఇవ్వబడ్డాయి)",
+    "pH (4.5–9.0)": "pH (4.5–9.0)",
+    "N kg/ha (50–600)": "నత్రజని N కిలో/హె (50–600)",
+    "P kg/ha (5–150)": "భాస్వరం P కిలో/హె (5–150)",
+    "K kg/ha (50–800)": "పొటాషియం K కిలో/హె (50–800)",
+    "Organic C % (0.1–3.0)": "సేంద్రియ కర్బనం % (0.1–3.0)",
+    "Prototype accepted-input ranges only; these are not universal crop suitability or soil-health thresholds. Check units and testing methods before using measured values.": "ఇవి నమూనా ఫారమ్‌కు సంబంధించిన నమోదు పరిమితులు మాత్రమే; అన్ని పంటలకు వర్తించే నేల ఆరోగ్య ప్రమాణాలు కావు. పరీక్ష యూనిట్లను నిర్ధారించండి.",
+    "🌱 Show Recommended Crops": "🌱 సిఫార్సు చేసిన పంటలను చూపించు",
+    "These are district-based crop candidates from your supplied tables, not trained ML predictions. Vegetables and flowers are shown only for the districts and seasons in your supplied category lists. Water categories are preliminary and require agronomic validation. No invented confidence scores are shown.": "ఇవి మీరు అందించిన జిల్లా వారీ పట్టికల ఆధారంగా సూచించిన పంటలు మాత్రమే; శిక్షణ పొందిన ML అంచనాలు కావు. నీటి వర్గీకరణను వ్యవసాయ నిపుణులతో నిర్ధారించాలి.",
+    "💧 More Water Available (Irrigated)": "💧 ఎక్కువ నీరు అందుబాటులో (నీటిపారుదల)",
+    "Seasonal crop candidates to evaluate when adequate irrigation is available": "నీటిపారుదల సదుపాయం ఉన్నప్పుడు పరిశీలించాల్సిన సీజనల్ పంటలు",
+    "☀️ Less Water Available (Rainfed)": "☀️ తక్కువ నీరు అందుబాటులో (వర్షాధారం)",
+    "Seasonal crop candidates to evaluate when irrigation is limited": "నీటిపారుదల తక్కువగా ఉన్నప్పుడు పరిశీలించాల్సిన సీజనల్ పంటలు",
+    "🌿 Annual Crops (9–12 Months)": "🌿 వార్షిక పంటలు (9–12 నెలలు)",
+    "All listed annual crop candidates for this district": "ఈ జిల్లాకు జాబితాలో ఉన్న వార్షిక పంటలు",
+    "🌳 Perennial Crops (Multi-Year)": "🌳 బహువార్షిక పంటలు",
+    "All listed perennial crop candidates for this district": "ఈ జిల్లాకు జాబితాలో ఉన్న బహువార్షిక పంటలు",
+    "🥕 Vegetables": "🥕 కూరగాయలు",
+    "Only the vegetables in your supplied district-and-season list": "జిల్లా, సీజన్ జాబితాలోని కూరగాయలు",
+    "🥬 Leafy Vegetables": "🥬 ఆకుకూరలు",
+    "Seasonal leafy vegetables listed for the selected district": "ఎంచుకున్న జిల్లాకు సంబంధించిన సీజనల్ ఆకుకూరలు",
+    "🌸 Floriculture (Flowers)": "🌸 పూల సాగు",
+    "Only the flowers in your supplied district-and-season list": "జిల్లా, సీజన్ జాబితాలోని పూలు",
+    "🌱 Sell My Crop": "🌱 నా పంటను అమ్మాలి",
+    "Uploaded crop photographs are embedded locally where available. Newly added vegetable, leafy, fodder and flower crop cards show “Photo not yet provided” until dedicated images are supplied. Confirm crop suitability with local agricultural extension services before planting.": "అందించిన పంట ఫోటోలు అందుబాటులో ఉన్న చోట వెబ్‌సైట్‌లోనే చేర్చబడ్డాయి. సాగు ప్రారంభించే ముందు స్థానిక వ్యవసాయ నిపుణుల సలహా తీసుకోండి.",
+    "Vegetables, leafy vegetables, fodder and flowers are shown for every district using the season-wise crop lists you supplied. Primary districts are documented in the source list; other districts are exploratory options, not verified field-level suitability recommendations. Soil inputs here are validated for entry ranges only.": "మీరు ఇచ్చిన సీజన్ వారీ జాబితాల ఆధారంగా అన్ని జిల్లాలకు కూరగాయలు, ఆకుకూరలు, పూలు చూపబడతాయి. ఇవి క్షేత్రస్థాయిలో నిర్ధారించిన సిఫార్సులు కావు. నేల వివరాలు నమోదు పరిధులకే తనిఖీ చేయబడతాయి.",
+    "Kharif (Vanakalam)": "వానాకాలం (ఖరీఫ్)",
+    "Rabi (Yasangi)": "యాసంగి (రబీ)",
+    "No crops available for this category": "ఈ విభాగంలో పంటలు లేవు"
+  },
+  "CROP_GUIDANCE_ALIASES": {
+    "Urad (Black Gram)": "Black Gram",
+    "Rose/Floriculture": "Rose"
+  },
+  "EXTRA_CATEGORIES": {
+    "vegetables": {
+      "districts": [
+        "Rangareddy",
+        "Siddipet",
+        "Vikarabad",
+        "Medchal-Malkajgiri",
+        "Sangareddy",
+        "Karimnagar",
+        "Nizamabad"
+      ],
+      "seasons": [
+        [
+          "Tomato",
+          "Okra (Bhindi)",
+          "Brinjal",
+          "Ridge Gourd",
+          "Bottle Gourd",
+          "Bitter Gourd",
+          "Cluster Beans",
+          "Green Chilli"
+        ],
+        [
+          "Onion",
+          "Potato",
+          "Cabbage",
+          "Cauliflower",
+          "Carrot",
+          "Beetroot",
+          "Tomato",
+          "Brinjal",
+          "Cucumber"
+        ]
+      ]
+    },
+    "leafy": {
+      "districts": [
+        "Hyderabad",
+        "Medchal-Malkajgiri",
+        "Rangareddy",
+        "Hanumakonda",
+        "Warangal",
+        "Karimnagar"
+      ],
+      "seasons": [
+        [
+          "Amaranthus (Thotakura)",
+          "Gongura (Roselle)",
+          "Malabar Spinach (Bachali)",
+          "Curry Leaves"
+        ],
+        [
+          "Palak (Spinach)",
+          "Fenugreek (Methi)",
+          "Coriander (Kothimeera)",
+          "Mint (Pudina)",
+          "Spring Onion"
+        ]
+      ]
+    },
+    "flowers": {
+      "districts": [
+        "Rangareddy",
+        "Vikarabad",
+        "Medchal-Malkajgiri",
+        "Siddipet",
+        "Yadadri Bhuvanagiri",
+        "Warangal"
+      ],
+      "seasons": [
+        [
+          "Marigold",
+          "Jasmine",
+          "Crossandra",
+          "Tuberose"
+        ],
+        [
+          "Rose",
+          "Chrysanthemum",
+          "Gerbera",
+          "Aster",
+          "Marigold"
+        ]
+      ]
+    }
+  },
+  "photoPaths": {
+    "Paddy": "/images/crop-advisor/paddy-7c3fc7b7a0.jpg",
+    "Rice": "/images/crop-advisor/paddy-7c3fc7b7a0.jpg",
+    "Red Gram": "/images/crop-advisor/red-gram-cd62228f87.jpg",
+    "Toor Dal": "/images/crop-advisor/red-gram-cd62228f87.jpg",
+    "Groundnut": "/images/crop-advisor/groundnut-e167c39a92.jpg",
+    "Groundnuts": "/images/crop-advisor/groundnut-e167c39a92.jpg",
+    "Turmeric": "/images/crop-advisor/turmeric-c94fb7a5bf.jpg",
+    "Red Chillies": "/images/crop-advisor/red-chillies-43b1173777.jpg",
+    "Chillies": "/images/crop-advisor/red-chillies-43b1173777.jpg",
+    "Jowar": "/images/crop-advisor/jowar-645be40a9c.jpg",
+    "Soybean": "/images/crop-advisor/soybean-e11657251a.jpg",
+    "Green Gram": "/images/crop-advisor/green-gram-82df55f640.jpg",
+    "Bengal Gram": "/images/crop-advisor/bengal-gram-9b6bf5d271.jpg",
+    "Sugarcane": "/images/crop-advisor/sugarcane-1c7eb39204.jpg",
+    "Oil Palm": "/images/crop-advisor/oil-palm-8cf150fa03.jpg",
+    "Sweet Orange": "/images/crop-advisor/sweet-orange-8d29274860.jpg",
+    "Orange": "/images/crop-advisor/sweet-orange-8d29274860.jpg",
+    "Bajra": "/images/crop-advisor/bajra-6df7151db0.jpg",
+    "Tomato": "/images/crop-advisor/tomato-f7f39673f1.jpg",
+    "Okra (Bhindi)": "/images/crop-advisor/okra-bhindi-96bf16dfea.jpg",
+    "Brinjal": "/images/crop-advisor/brinjal-c7303b6e4f.jpg",
+    "Ridge Gourd": "/images/crop-advisor/ridge-gourd-79fe479195.jpg",
+    "Bottle Gourd": "/images/crop-advisor/bottle-gourd-8d20aae1ed.jpg",
+    "Bitter Gourd": "/images/crop-advisor/bitter-gourd-b423f1b806.jpg",
+    "Cluster Beans": "/images/crop-advisor/cluster-beans-45c490f36c.jpg",
+    "Green Chilli": "/images/crop-advisor/green-chilli-de8011bcb9.jpg",
+    "Onion": "/images/crop-advisor/onion-c492537ffd.jpg",
+    "Potato": "/images/crop-advisor/potato-dc10879fa9.jpg",
+    "Cabbage": "/images/crop-advisor/cabbage-db475da824.jpg",
+    "Cauliflower": "/images/crop-advisor/cauliflower-e8ef2d8b00.jpg",
+    "Carrot": "/images/crop-advisor/carrot-09a23af11c.jpg",
+    "Beetroot": "/images/crop-advisor/beetroot-0a9d7b21eb.jpg",
+    "Cucumber": "/images/crop-advisor/cucumber-ff4914782a.jpg",
+    "Ginger": "/images/crop-advisor/ginger-2ca42d96a2.png",
+    "Grape": "/images/crop-advisor/grape-4b332b0ddb.png",
+    "Maize": "/images/crop-advisor/maize-91210e5189.jpg",
+    "Cotton": "/images/crop-advisor/cotton-2adbca92a0.jpg",
+    "Black Gram": "/images/crop-advisor/black-gram-df29a1e25f.jpg",
+    "Ragi": "/images/crop-advisor/ragi-4727b255ed.jpg",
+    "Wheat": "/images/crop-advisor/wheat-f301d9352f.jpg",
+    "Sesame": "/images/crop-advisor/sesame-dafa2b15c7.jpg",
+    "Sunflower": "/images/crop-advisor/sunflower-583ffa0399.jpg",
+    "Safflower": "/images/crop-advisor/safflower-1b4202ca0a.jpg",
+    "Castor": "/images/crop-advisor/castor-a86dcacae8.jpg",
+    "Banana": "/images/crop-advisor/banana-fea4cb1e68.jpg",
+    "Papaya": "/images/crop-advisor/papaya-f36b221bef.jpg",
+    "Mango": "/images/crop-advisor/mango-c2219c049c.jpg",
+    "Acid Lime": "/images/crop-advisor/acid-lime-7066ec2bf1.jpg",
+    "Guava": "/images/crop-advisor/guava-8b0a352f2a.jpg",
+    "Cashewnut": "/images/crop-advisor/cashewnut-5bf15cab1e.jpg",
+    "Coconut": "/images/crop-advisor/coconut-e1db6b19de.jpg",
+    "Cocoa": "/images/crop-advisor/cocoa-637c0cc76f.jpg",
+    "Pomegranate": "/images/crop-advisor/pomegranate-4546763db1.jpg",
+    "Custard Apple": "/images/crop-advisor/custard-apple-b706b4a9a8.jpg",
+    "Sapota": "/images/crop-advisor/sapota-f2dee8a971.jpg",
+    "Marigold": "/images/crop-advisor/marigold-8262ccf8e0.jpg",
+    "Jasmine": "/images/crop-advisor/jasmine-0afb9a0a9b.jpg",
+    "Crossandra": "/images/crop-advisor/crossandra-ac429d9ca0.jpg",
+    "Tuberose": "/images/crop-advisor/tuberose-f0aadfa42b.jpg",
+    "Rose": "/images/crop-advisor/rose-a2a8532044.jpg",
+    "Chrysanthemum": "/images/crop-advisor/chrysanthemum-eba438bceb.jpg",
+    "Gerbera": "/images/crop-advisor/gerbera-508fb489cf.jpg",
+    "Aster": "/images/crop-advisor/aster-ca06196157.jpg",
+    "Amaranthus (Thotakura)": "/images/crop-advisor/amaranthus-thotakura-02c7eb92e4.jpg",
+    "Gongura (Roselle)": "/images/crop-advisor/gongura-roselle-1601632cb5.jpg",
+    "Malabar Spinach (Bachali)": "/images/crop-advisor/malabar-spinach-bachali-f1f8ee40d7.jpg",
+    "Curry Leaves": "/images/crop-advisor/curry-leaves-2d882faae3.jpg",
+    "Palak (Spinach)": "/images/crop-advisor/palak-spinach-e228123022.jpg",
+    "Fenugreek (Methi)": "/images/crop-advisor/fenugreek-methi-e6923c0cba.jpg",
+    "Coriander (Kothimeera)": "/images/crop-advisor/coriander-kothimeera-3cae210562.jpg",
+    "Mint (Pudina)": "/images/crop-advisor/mint-pudina-d2f82ba917.jpg",
+    "Spring Onion": "/images/crop-advisor/spring-onion-5ac575fa68.jpg"
+  }
+}

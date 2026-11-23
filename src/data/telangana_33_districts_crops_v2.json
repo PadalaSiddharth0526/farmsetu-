@@ -1,0 +1,1213 @@
+[
+  {
+    "s_no": 1,
+    "district": "Adilabad",
+    "kharif": {
+      "water_available": [
+        "Maize"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Soybean",
+        "Red Gram",
+        "Black Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Wheat"
+      ],
+      "less_water_available": [
+        "Bengal Gram (Chickpea)",
+        "Jowar",
+        "Sesame"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Vegetables"
+      ],
+      "less_water_available": [
+        "Custard Apple"
+      ]
+    },
+    "any_other_annual_perennial": [
+      "Custard Apple",
+      "Vegetables"
+    ]
+  },
+  {
+    "s_no": 2,
+    "district": "Bhadradri Kothagudem",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Chillies",
+        "Maize"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Green Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Groundnut"
+      ],
+      "less_water_available": [
+        "Pulses"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Oil Palm",
+        "Vegetables"
+      ],
+      "less_water_available": [
+        "Eucalyptus",
+        "Cashew"
+      ]
+    },
+    "any_other_annual_perennial": [
+      "Oil Palm",
+      "Eucalyptus",
+      "Cashew",
+      "Vegetables"
+    ]
+  },
+  {
+    "s_no": 3,
+    "district": "Hanumakonda",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Chillies"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Green Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Groundnut",
+        "Chillies"
+      ],
+      "less_water_available": []
+    },
+    "any_other": {
+      "water_available": [
+        "Turmeric",
+        "Mango",
+        "Vegetables"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Turmeric",
+      "Mango",
+      "Vegetables"
+    ]
+  },
+  {
+    "s_no": 4,
+    "district": "Hyderabad",
+    "kharif": {
+      "water_available": [],
+      "less_water_available": []
+    },
+    "rabi": {
+      "water_available": [],
+      "less_water_available": []
+    },
+    "any_other": {
+      "water_available": [
+        "Urban Horticulture",
+        "Leafy Vegetables"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Urban Horticulture",
+      "Leafy Vegetables"
+    ]
+  },
+  {
+    "s_no": 5,
+    "district": "Jagtial",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Turmeric"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Groundnut"
+      ],
+      "less_water_available": [
+        "Sesame"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Mango Orchards",
+        "Turmeric (long-duration)"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Mango Orchards",
+      "Turmeric (long-duration)"
+    ]
+  },
+  {
+    "s_no": 6,
+    "district": "Jangaon",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Maize"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram",
+        "Green Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Groundnut"
+      ],
+      "less_water_available": []
+    },
+    "any_other": {
+      "water_available": [
+        "Sweet Lime (Mosambi)",
+        "Mango",
+        "Vegetables"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Sweet Lime (Mosambi)",
+      "Mango",
+      "Vegetables"
+    ]
+  },
+  {
+    "s_no": 7,
+    "district": "Jayashankar Bhupalpally",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Chillies",
+        "Maize"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Groundnut"
+      ],
+      "less_water_available": [
+        "Black Gram"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Oil Palm",
+        "Vegetables"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Oil Palm",
+      "Vegetables"
+    ]
+  },
+  {
+    "s_no": 8,
+    "district": "Jogulamba Gadwal",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Groundnut"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram",
+        "Castor"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Groundnut",
+        "Chillies"
+      ],
+      "less_water_available": [
+        "Jowar"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Onion",
+        "Hybrid Seed Production"
+      ],
+      "less_water_available": [
+        "Tobacco"
+      ]
+    },
+    "any_other_annual_perennial": [
+      "Onion",
+      "Tobacco",
+      "Hybrid Seed Production"
+    ]
+  },
+  {
+    "s_no": 9,
+    "district": "Kamareddy",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Maize"
+      ],
+      "less_water_available": [
+        "Soybean",
+        "Cotton",
+        "Black Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Sunflower"
+      ],
+      "less_water_available": [
+        "Bengal Gram"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Sugarcane",
+        "Vegetables"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Sugarcane",
+      "Vegetables"
+    ]
+  },
+  {
+    "s_no": 10,
+    "district": "Karimnagar",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Groundnut"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Sesame"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Groundnut"
+      ],
+      "less_water_available": []
+    },
+    "any_other": {
+      "water_available": [
+        "Mango Orchards",
+        "Vegetables"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Mango Orchards",
+      "Vegetables"
+    ]
+  },
+  {
+    "s_no": 11,
+    "district": "Khammam",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Chillies"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram",
+        "Green Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Groundnut"
+      ],
+      "less_water_available": [
+        "Pulses"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Sugarcane",
+        "Oil Palm",
+        "Mango"
+      ],
+      "less_water_available": [
+        "Tobacco"
+      ]
+    },
+    "any_other_annual_perennial": [
+      "Sugarcane",
+      "Oil Palm",
+      "Tobacco",
+      "Mango"
+    ]
+  },
+  {
+    "s_no": 12,
+    "district": "Kumuram Bheem Asifabad",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Maize"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram",
+        "Soybean"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy"
+      ],
+      "less_water_available": [
+        "Bengal Gram",
+        "Jowar",
+        "Sesame"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Vegetables"
+      ],
+      "less_water_available": [
+        "Forest Produce"
+      ]
+    },
+    "any_other_annual_perennial": [
+      "Vegetables",
+      "Forest Produce"
+    ]
+  },
+  {
+    "s_no": 13,
+    "district": "Mahabubabad",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Chillies",
+        "Maize"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Green Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Groundnut",
+        "Chillies"
+      ],
+      "less_water_available": []
+    },
+    "any_other": {
+      "water_available": [
+        "Turmeric",
+        "Mango",
+        "Oil Palm"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Turmeric",
+      "Mango",
+      "Oil Palm"
+    ]
+  },
+  {
+    "s_no": 14,
+    "district": "Mahabubnagar",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Maize"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram",
+        "Castor"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Groundnut"
+      ],
+      "less_water_available": [
+        "Jowar"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Mango",
+        "Vegetables"
+      ],
+      "less_water_available": [
+        "Castor"
+      ]
+    },
+    "any_other_annual_perennial": [
+      "Castor",
+      "Mango",
+      "Vegetables"
+    ]
+  },
+  {
+    "s_no": 15,
+    "district": "Mancherial",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Maize"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram",
+        "Black Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize"
+      ],
+      "less_water_available": [
+        "Sesame",
+        "Black Gram"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Mango",
+        "Vegetables"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Mango",
+      "Vegetables"
+    ]
+  },
+  {
+    "s_no": 16,
+    "district": "Medak",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Maize"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram",
+        "Green Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Sunflower"
+      ],
+      "less_water_available": [
+        "Bengal Gram"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Sugarcane",
+        "Vegetables"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Sugarcane",
+      "Vegetables"
+    ]
+  },
+  {
+    "s_no": 17,
+    "district": "Medchal-Malkajgiri",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Maize"
+      ],
+      "less_water_available": [
+        "Jowar",
+        "Red Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Vegetables"
+      ],
+      "less_water_available": []
+    },
+    "any_other": {
+      "water_available": [
+        "Floriculture (Flowers)",
+        "Guava",
+        "Leafy Vegetables"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Floriculture (Flowers)",
+      "Guava",
+      "Leafy Vegetables"
+    ]
+  },
+  {
+    "s_no": 18,
+    "district": "Mulugu",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Chillies",
+        "Maize"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Groundnut"
+      ],
+      "less_water_available": [
+        "Pulses"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Oil Palm",
+        "Turmeric",
+        "Vegetables"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Oil Palm",
+      "Turmeric",
+      "Vegetables"
+    ]
+  },
+  {
+    "s_no": 19,
+    "district": "Nagarkurnool",
+    "kharif": {
+      "water_available": [
+        "Maize",
+        "Groundnut",
+        "Paddy"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Groundnut",
+        "Paddy"
+      ],
+      "less_water_available": [
+        "Jowar",
+        "Bengal Gram"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Sweet Lime",
+        "Mango",
+        "Vegetables"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Sweet Lime",
+      "Mango",
+      "Vegetables"
+    ]
+  },
+  {
+    "s_no": 20,
+    "district": "Nalgonda",
+    "kharif": {
+      "water_available": [
+        "Paddy"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram",
+        "Green Gram",
+        "Castor"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Groundnut"
+      ],
+      "less_water_available": [
+        "Pulses"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Sweet Lime (Mosambi)",
+        "Vegetables"
+      ],
+      "less_water_available": [
+        "Sesame"
+      ]
+    },
+    "any_other_annual_perennial": [
+      "Sweet Lime (Mosambi)",
+      "Vegetables",
+      "Sesame"
+    ]
+  },
+  {
+    "s_no": 21,
+    "district": "Narayanpet",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Groundnut"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram",
+        "Castor"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Groundnut"
+      ],
+      "less_water_available": [
+        "Jowar",
+        "Bengal Gram"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Vegetables"
+      ],
+      "less_water_available": [
+        "Castor"
+      ]
+    },
+    "any_other_annual_perennial": [
+      "Vegetables",
+      "Castor"
+    ]
+  },
+  {
+    "s_no": 22,
+    "district": "Nirmal",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Turmeric"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Soybean"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize"
+      ],
+      "less_water_available": [
+        "Bengal Gram",
+        "Sesame"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Sugarcane",
+        "Turmeric",
+        "Mango"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Sugarcane",
+      "Turmeric",
+      "Mango"
+    ]
+  },
+  {
+    "s_no": 23,
+    "district": "Nizamabad",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Turmeric"
+      ],
+      "less_water_available": [
+        "Soybean",
+        "Black Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Sunflower"
+      ],
+      "less_water_available": [
+        "Sesame"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Sugarcane",
+        "Turmeric (long-duration)"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Sugarcane",
+      "Turmeric (long-duration)"
+    ]
+  },
+  {
+    "s_no": 24,
+    "district": "Peddapalli",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Chillies"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Green Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Groundnut"
+      ],
+      "less_water_available": [
+        "Sesame"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Mango",
+        "Vegetables"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Mango",
+      "Vegetables"
+    ]
+  },
+  {
+    "s_no": 25,
+    "district": "Rajanna Sircilla",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Maize"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Groundnut"
+      ],
+      "less_water_available": [
+        "Sesame"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Mango",
+        "Vegetables"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Mango",
+      "Vegetables"
+    ]
+  },
+  {
+    "s_no": 26,
+    "district": "Rangareddy",
+    "kharif": {
+      "water_available": [
+        "Maize",
+        "Paddy"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram",
+        "Jowar"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize"
+      ],
+      "less_water_available": [
+        "Jowar",
+        "Bengal Gram"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Vegetables",
+        "Floriculture",
+        "Guava",
+        "Mango"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Vegetables",
+      "Floriculture",
+      "Guava",
+      "Mango"
+    ]
+  },
+  {
+    "s_no": 27,
+    "district": "Sangareddy",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Maize"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram",
+        "Black Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize"
+      ],
+      "less_water_available": [
+        "Bengal Gram",
+        "Jowar"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Sugarcane",
+        "Ginger",
+        "Potato",
+        "Vegetables"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Sugarcane",
+      "Ginger",
+      "Potato",
+      "Vegetables"
+    ]
+  },
+  {
+    "s_no": 28,
+    "district": "Siddipet",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Maize"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram",
+        "Green Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Sunflower",
+        "Groundnut"
+      ],
+      "less_water_available": []
+    },
+    "any_other": {
+      "water_available": [
+        "Oil Palm",
+        "Mango",
+        "Vegetables"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Oil Palm",
+      "Mango",
+      "Vegetables"
+    ]
+  },
+  {
+    "s_no": 29,
+    "district": "Suryapet",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Chillies"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Groundnut"
+      ],
+      "less_water_available": [
+        "Green Gram"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Vegetables",
+        "Orchards"
+      ],
+      "less_water_available": [
+        "Sesame"
+      ]
+    },
+    "any_other_annual_perennial": [
+      "Vegetables",
+      "Sesame",
+      "Orchards"
+    ]
+  },
+  {
+    "s_no": 30,
+    "district": "Vikarabad",
+    "kharif": {
+      "water_available": [
+        "Maize",
+        "Paddy"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram (Tandur)"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Maize",
+        "Paddy"
+      ],
+      "less_water_available": [
+        "Jowar",
+        "Bengal Gram"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Vegetables",
+        "Ginger",
+        "Turmeric"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Vegetables",
+      "Ginger",
+      "Turmeric"
+    ]
+  },
+  {
+    "s_no": 31,
+    "district": "Wanaparthy",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Groundnut"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram",
+        "Castor"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Groundnut"
+      ],
+      "less_water_available": [
+        "Jowar"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Mango",
+        "Seed Production Crops",
+        "Vegetables"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Mango",
+      "Seed Production Crops",
+      "Vegetables"
+    ]
+  },
+  {
+    "s_no": 32,
+    "district": "Warangal",
+    "kharif": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Chillies",
+        "Groundnut"
+      ],
+      "less_water_available": [
+        "Cotton"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Maize",
+        "Groundnut",
+        "Chillies"
+      ],
+      "less_water_available": []
+    },
+    "any_other": {
+      "water_available": [
+        "Turmeric",
+        "Mango",
+        "Vegetables"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Turmeric",
+      "Mango",
+      "Vegetables"
+    ]
+  },
+  {
+    "s_no": 33,
+    "district": "Yadadri Bhuvanagiri",
+    "kharif": {
+      "water_available": [
+        "Paddy"
+      ],
+      "less_water_available": [
+        "Cotton",
+        "Red Gram",
+        "Green Gram",
+        "Castor"
+      ]
+    },
+    "rabi": {
+      "water_available": [
+        "Paddy",
+        "Groundnut"
+      ],
+      "less_water_available": [
+        "Pulses"
+      ]
+    },
+    "any_other": {
+      "water_available": [
+        "Sweet Lime (Mosambi)",
+        "Vegetables"
+      ],
+      "less_water_available": []
+    },
+    "any_other_annual_perennial": [
+      "Sweet Lime (Mosambi)",
+      "Vegetables"
+    ]
+  }
+]

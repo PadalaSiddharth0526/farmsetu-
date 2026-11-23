@@ -1,0 +1,20 @@
+.cqca .cqca-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 225px), 1fr));
+  gap: 1rem;
+}
+
+.cqca .cqca-photo {
+  position: relative;
+  aspect-ratio: 4 / 3;
+  overflow: hidden;
+  background: var(--muted);
+}
+
+.cqca summary {
+  text-wrap: pretty;
+}
+
+.cqca details[open] > summary {
+  margin-bottom: 0.25rem;
+}

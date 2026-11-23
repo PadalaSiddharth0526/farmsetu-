@@ -1,0 +1,60 @@
+Crop photographs in this directory
+
+User-provided photos (provided in the conversation; license metadata was not supplied):
+  red-gram.jpg — Split pigeon peas (toor dal)
+  maize.jpg — Fresh maize ears growing on the plant
+  tomato.jpg — Ripe tomatoes growing on the vine
+  sugarcane.jpg — Sugarcane plants
+  soybean.jpg — Soybeans growing in a field
+  jowar-user.jpg — Sorghum plants with grain heads
+  chickpea-user.jpg — Chickpea plants
+  castor.jpg — Castor seeds
+  oil-palm.jpg — Oil palm tree with fruit bunches
+  green-gram-user.jpg — Green gram pods
+  black-gram.jpg — Black gram plants and seeds
+  sunflower.jpg — Sunflower field
+  sweet-lime.jpg — Sweet lime fruit on a tree
+  mango.jpg — Mangoes growing on a tree
+  ginger.jpg — Freshly harvested ginger roots
+  custard-apple.jpg — Custard apples growing on a tree
+  onion-user.jpg — Onions growing in a field
+  guava.jpg — Guavas growing on a tree
+  No Tobacco photograph was supplied; the UI uses a neutral placeholder.
+
+The remaining Commons photographs were resized and recompressed for the crop recommendation UI.
+Photos depict crops only; they do not identify a CrowdQuote farm, farmer, or variety.
+
+cotton.jpg
+  "Cotton boll maturing on Bobby Byrd's cotton plant in Hale County near Plainview, Texas"
+  USDA NRCS Texas — Public domain
+  https://commons.wikimedia.org/wiki/File:Cotton_boll_maturing_on_Bobby_Byrd%27s_cotton_plant_in_Hale_County_near_Plainview,_Texas._(24490395753).jpg
+
+chickpea.jpg
+  "CSIRO ScienceImage 3025 Chickpeas in glasshouse"
+  Carl Davies, CSIRO — CC BY 3.0
+  https://commons.wikimedia.org/wiki/File:CSIRO_ScienceImage_3025_Chickpeas_in_glasshouse.jpg
+
+onion.jpg
+  "Common onion harvested at Goodnestone Park Kent England"
+  Acabashi — CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Common_onion_harvested_at_Goodnestone_Park_Kent_England.jpg
+
+sesame.jpg
+  "Sesame Plant"
+  Bnreddy12 — CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Sesame_Plant.jpg
+
+jowar.jpg
+  "Sorghum bicolor"
+  Judgefloro — CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:JfSorghum_bicolorSPV422_CabiaoNEcijafvf.JPG
+
+bajra.jpg
+  "Pearl millet, breeding and selfing, ICRISAT Patancheru"
+  Rik Schuiling / TropCrop - TCS — CC BY-SA 3.0
+  https://commons.wikimedia.org/wiki/File:2013.02-402-294a_Pearl_millet,breeding,selfing_ICRISAT,Patancheru(Hyderabad,Andhra_Pradesh),IN_wed20feb2013.jpg
+
+green-gram.jpg
+  "Vigna radiata"
+  Bff — CC BY-SA 4.0
+  https://commons.wikimedia.org/wiki/File:Vigna_radiata20230627_20775.jpg

@@ -12,7 +12,6 @@ import { useI18n } from "@/lib/i18n";
 import { useCart } from "@/lib/cart";
 import { rupees } from "@/lib/telangana";
 import type { ProductRow } from "@/components/product-card";
-import { demoCatalog } from "@/lib/demo-catalog";
 
 export const Route = createFileRoute("/marketplace/$productId")({
   head: () => ({
@@ -41,14 +40,14 @@ function ProductDetail() {
         .from("products")
         .select("*, farmers(name, district, village)")
         .eq("id", productId)
-        .eq("status", "active")
+        .in("status", ["active","planned"])
         .maybeSingle();
       if (error) throw error;
       return data as unknown as (ProductRow & { harvest_date: string | null; description: string | null }) | null;
     },
   });
 
-  const product = supabaseConfigured ? liveProduct : demoCatalog.find(p => p.id === productId);
+  const product = liveProduct;
   if (supabaseConfigured && isLoading) return <div className="mx-auto max-w-5xl px-4 py-10"><Skeleton className="h-96 rounded-3xl" /></div>;
   if (!product)
     return (
@@ -63,6 +62,7 @@ function ProductDetail() {
   const packSizes = (product.pack_sizes ?? []).filter((size) => size <= product.quantity);
   const selectedQty = packSizes.includes(qty) ? qty : (packSizes[0] ?? 0);
   const canPurchase =
+    product.status === "active" &&
     product.supplier_verified === true &&
     product.price_verified === true &&
     product.stock_verified === true &&
@@ -84,7 +84,7 @@ function ProductDetail() {
 
         <div>
           <div className="flex flex-wrap gap-2">
-            {product.is_demo && <Badge variant="secondary">DEMO</Badge>}
+            {product.status === "planned" && <Badge variant="secondary">Indicative offer</Badge>}
             {isOrganicVerified && <Badge className="bg-leaf text-primary-foreground">{t("organic")}</Badge>}
           </div>
           <h1 className="mt-3 font-display text-3xl font-extrabold">{pick(product.crop_name, product.crop_name_te)}</h1>
@@ -103,7 +103,7 @@ function ProductDetail() {
 
           <dl className="mt-6 grid grid-cols-2 gap-3 text-sm">
             <div className="rounded-2xl bg-secondary p-3">
-              <dt className="text-muted-foreground">{pick("Available", "అందుబాటులో")}</dt>
+              <dt className="text-muted-foreground">{product.status === "planned" ? "Planned quantity" : pick("Available", "అందుబాటులో")}</dt>
               <dd className="font-semibold">{product.quantity} {product.unit}</dd>
             </div>
             <div className="rounded-2xl bg-secondary p-3">
@@ -122,7 +122,7 @@ function ProductDetail() {
 
           {product.is_demo && (
             <p className="mt-4 rounded-2xl bg-secondary p-3 text-sm text-muted-foreground">
-              DEMO listing. Supplier, price, and stock are unverified. It cannot be purchased until verified.
+              Indicative catalogue offer. Register interest through a community buying group; farmer confirmation is pending.
             </p>
           )}
           {!product.is_demo && !canPurchase && (
@@ -172,7 +172,7 @@ function ProductDetail() {
                 toast.success(pick("Added to cart", "బండిలో చేర్చబడింది"));
               }}
             >
-              <ShoppingCart className="mr-2 h-5 w-5" /> {canPurchase ? t("addToCart") : "Unverified / unavailable"}
+              <ShoppingCart className="mr-2 h-5 w-5" /> {canPurchase ? t("addToCart") : product.status === "planned" ? "Farmer confirmation pending" : "Currently unavailable"}
             </Button>
           </div>
 

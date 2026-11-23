@@ -49,9 +49,11 @@ export function ProductCard({ product }: { product: ProductRow }) {
   );
   const district = product.district ?? product.farmers?.district ?? product.location ?? "Telangana";
   const farmerName = product.farmers?.name ?? "Supplier not listed";
-  const isAvailable = product.status !== "inactive" && product.quantity > 0;
+  const isPlanned = product.status === "planned";
+  const isAvailable = product.status === "active" && product.quantity > 0;
   const canPurchase =
     !product.is_demo &&
+    !isPlanned &&
     isAvailable &&
     product.supplier_verified === true &&
     product.price_verified === true &&
@@ -102,13 +104,14 @@ export function ProductCard({ product }: { product: ProductRow }) {
             <span className="text-xs text-muted-foreground"> / {product.unit}</span>
           </div>
           <span className="text-right text-xs text-muted-foreground">
-            {isAvailable ? `${product.quantity} ${product.unit} available` : "Unavailable"}
+            {isPlanned ? `${product.quantity} ${product.unit} planned` : isAvailable ? `${product.quantity} ${product.unit} available` : "Unavailable"}
           </span>
         </div>
 
         <p className="mt-2 text-xs text-muted-foreground">
           {product.category} • Min. {product.min_order} {product.unit}
         </p>
+        {isPlanned && <p className="mt-2 text-xs text-muted-foreground">Indicative offer · Farmer confirmation pending</p>}
         {product.pack_sizes && product.pack_sizes.length > 0 && (
           <div className="mt-3">
             <label className="mb-1 block text-xs font-semibold">

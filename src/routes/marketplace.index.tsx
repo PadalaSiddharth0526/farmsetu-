@@ -57,7 +57,7 @@ function MarketplacePage() {
       const { data, error } = await supabase
         .from("products")
         .select("*, farmers(name, district, village)")
-        .eq("status", "active")
+        .in("status", ["active", "planned"])
         .order("created_at", { ascending: false });
       if (error) throw error;
       const allowedNames = ["Groundnut", "Groundnuts", "Red Chillies", "Red Chilli", "Turmeric", "Rice"];
@@ -68,7 +68,7 @@ function MarketplacePage() {
   });
 
   const products = useMemo(() => {
-    let list = (data ?? []).filter(p => !p.is_demo && p.farmer_id !== null && p.supplier_verified && p.price_verified && p.stock_verified);
+    let list = (data ?? []).filter(p => !p.is_demo && (p.status === "planned" || (p.status === "active" && p.farmer_id !== null && p.supplier_verified && p.price_verified && p.stock_verified)));
     if (q.trim()) {
       const term = q.trim().toLowerCase();
       list = list.filter(
@@ -179,7 +179,7 @@ function MarketplacePage() {
                 <SelectContent>
                   <SelectItem value="all">{pick("Any availability", "ఏదైనా")}</SelectItem>
                   <SelectItem value="available">{pick("In stock", "స్టాక్‌లో ఉంది")}</SelectItem>
-                  <SelectItem value="unavailable">{pick("Out of stock", "స్టాక్ లేదు")}</SelectItem>
+                  <SelectItem value="unavailable">{pick("Not yet available", "ఇంకా అందుబాటులో లేదు")}</SelectItem>
                 </SelectContent>
               </Select>
             </div>
@@ -218,8 +218,9 @@ function MarketplacePage() {
 
         <div>
           <p className="text-sm text-muted-foreground">
-            {products.length} {pick("products available", "ఉత్పత్తులు అందుబాటులో")}
+            {products.length} {pick("catalogue products", "కేటలాగ్ ఉత్పత్తులు")}
           </p>
+          <p className="mt-2 text-xs text-muted-foreground">Catalogue prices and quantities are indicative until a registered farmer confirms an offer. Only confirmed listings can be ordered.</p>
           {supabaseConfigured && isLoading ? (
             <div className="mt-5 grid gap-5 sm:grid-cols-2 xl:grid-cols-3">
               {Array.from({ length: 6 }).map((_, i) => (

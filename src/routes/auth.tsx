@@ -12,7 +12,6 @@ import { useI18n } from "@/lib/i18n";
 import { useSession } from "@/lib/session";
 import { DISTRICTS } from "@/lib/telangana";
 import { cn } from "@/lib/utils";
-import { lovable } from "@/integrations/lovable/index";
 
 type Search = { role?: "farmer" | "customer" | undefined };
 
@@ -83,12 +82,13 @@ function AuthPage() {
   }
 
   async function google() {
-    const result = await lovable.auth.signInWithOAuth("google", { redirect_uri: window.location.origin });
-    if (result.error) {
-      toast.error(result.error.message ?? "Google sign-in failed");
-      return;
-    }
-    if (result.redirected) return;
+    setLoading(true);
+    const { error } = await supabase.auth.signInWithOAuth({
+      provider: "google",
+      options: { redirectTo: window.location.origin },
+    });
+    setLoading(false);
+    if (error) toast.error(error.message);
   }
 
   return (

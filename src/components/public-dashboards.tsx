@@ -21,7 +21,7 @@ export function PublicDashboards() {
   const { data, isLoading, isFetching, refetch } = useQuery({
     queryKey: ['crowdquote-public-dashboards'],
     queryFn: async () => {
-      const names = ['products', 'purchase_groups', 'group_quotes'] as const;
+      const names = ['products', 'purchase_groups', 'group_quotes', 'group_plans'] as const;
       const results = await Promise.all(names.map(name => (supabase as any).from(name).select('*').limit(1000)));
       return Object.fromEntries(names.map((name, i) => [name, {
         rows: (results[i].data ?? []) as Row[],
@@ -30,7 +30,7 @@ export function PublicDashboards() {
     },
     staleTime: 60000,
   });
-  const { products, groups, quotes } = useMemo(() => {
+  const { products, groups, quotes, plans, plannedProducts } = useMemo(() => {
     const cutoff = Date.now() - Number(days) * 86400000;
     const filtered = (table: string) => ((data?.[table]?.rows ?? []) as Row[]).filter(r => {
       const d = dateOf(r);
@@ -38,13 +38,13 @@ export function PublicDashboards() {
       const name = String(get(r, 'crop_name', 'crop', 'product_name', 'category') ?? '').toLowerCase();
       return crop === 'All' || !name || name.includes(crop.toLowerCase());
     });
-    return { products: filtered('products').filter(r => r.is_demo !== true && r.supplier_verified === true && r.price_verified === true && r.stock_verified === true && r.status === 'active'), groups: filtered('purchase_groups'), quotes: filtered('group_quotes') };
+    return { products: filtered('products').filter(r => r.is_demo !== true && r.supplier_verified === true && r.price_verified === true && r.stock_verified === true && r.status === 'active'), plannedProducts: filtered('products').filter(r => r.status === 'planned'), plans: filtered('group_plans'), groups: filtered('purchase_groups'), quotes: filtered('group_quotes') };
   }, [data, days, crop]);
   const groupsWithQuotes = new Set(quotes.map(r => String(get(r, 'group_id'))));
   const coverage = groups.length ? `${Math.round(groups.filter(g => groupsWithQuotes.has(String(g.id))).length / groups.length * 100)}%` : '—';
   const cards: Array<[string, string | number]> = view === 0
-    ? [['Visible crop listings', products.length], ['Visible buying groups', groups.length], ['Visible quotations', quotes.length], ['Quotation coverage', coverage]]
-    : view === 1 ? [['Visible listings', products.length], ['Active listings', products.filter(r => get(r, 'status') === 'active').length], ['Crops listed', new Set(products.map(r => String(get(r, 'crop_name', 'category') ?? 'Other'))).size], ['Visible quotations', quotes.length]]
+    ? [['Catalogue products', products.length + plannedProducts.length], ['Planned stock (kg)', plannedProducts.reduce((sum,r)=>sum+Number(r.quantity||0),0)], ['Planned buying groups', plans.length], ['Active buying groups', groups.length]]
+    : view === 1 ? [['Catalogue products', products.length + plannedProducts.length], ['Active listings', products.filter(r => get(r, 'status') === 'active').length], ['Crops listed', new Set(products.map(r => String(get(r, 'crop_name', 'category') ?? 'Other'))).size], ['Visible quotations', quotes.length]]
     : view === 2 ? [['Buying groups', groups.length], ['Groups with quotations', groups.filter(g => groupsWithQuotes.has(String(g.id))).length], ['Quotations', quotes.length], ['Verified savings', 'Not tracked']]
     : [['Groups created', groups.length], ['Groups with quotations', groups.filter(g => groupsWithQuotes.has(String(g.id))).length], ['Quotation coverage', coverage], ['Retention', 'Not tracked']];
   const chartSource = view === 1 ? products : view === 3 ? quotes : groups;

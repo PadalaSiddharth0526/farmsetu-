@@ -39,6 +39,7 @@ function FarmerDashboard(){
     <div className="cqfd-main">
       <header className="cqfd-top"><button className="cqfd-mobile" onClick={()=>setMobile(!mobile)} aria-label="Toggle menu"><Menu/></button><label className="cqfd-search"><Search size={19}/><input value={search} onChange={e=>setSearch(e.target.value)} placeholder="Search your produce listings…" /></label><div className="cqfd-user"><span className="cqfd-avatar">🌾</span><div><strong>{farmer.name}</strong><small>{farmer.village?`${farmer.village}, `:''}{farmer.district}</small></div></div></header>
       <div className="cqfd-content">
+        {!farmer.approved && <div className="mb-5 rounded-xl border border-amber-300 bg-amber-50 p-4 text-sm text-amber-950">Your farmer profile is registered and awaiting marketplace verification. You can manage your profile, but products cannot be offered for purchase until supplier, price and stock checks are completed.</div>}
         <div className="cqfd-welcome"><div><h1>Welcome back, {farmer.name} 👋</h1><p>Manage your produce, respond to demand and grow your business with FarmSetu.</p></div></div>
         <div className="cqfd-metrics">
           <div className="cqfd-metric"><span className="cqfd-metricicon">🌿</span><div><small>Active Listings</small><strong>{active}</strong><em>Currently available</em></div></div>

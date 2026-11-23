@@ -120,14 +120,14 @@ function ProductDetail() {
             </div>
           </dl>
 
-          {product.is_demo && (
+          {product.status === "planned" && (
             <p className="mt-4 rounded-2xl bg-secondary p-3 text-sm text-muted-foreground">
               Indicative catalogue offer. Register interest through a community buying group; farmer confirmation is pending.
             </p>
           )}
-          {!product.is_demo && !canPurchase && (
+          {product.status !== "planned" && !canPurchase && (
             <p className="mt-4 rounded-2xl bg-secondary p-3 text-sm text-muted-foreground">
-              This listing is not currently verified and available for purchase.
+              This listing is currently unavailable for ordering.
             </p>
           )}
 

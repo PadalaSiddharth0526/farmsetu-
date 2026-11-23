@@ -12,7 +12,6 @@ import { supabase } from "@/integrations/supabase/client";
 import { ProductCard, type ProductRow } from "@/components/product-card";
 import { DISTRICTS } from "@/lib/telangana";
 import { useI18n } from "@/lib/i18n";
-import { demoCatalog } from "@/lib/demo-catalog";
 
 export const Route = createFileRoute("/marketplace/")({
   head: () => ({
@@ -69,7 +68,7 @@ function MarketplacePage() {
   });
 
   const products = useMemo(() => {
-    let list = supabaseConfigured && (data?.length ?? 0) > 0 ? (data ?? []) : demoCatalog;
+    let list = (data ?? []).filter(p => !p.is_demo && p.farmer_id !== null && p.supplier_verified && p.price_verified && p.stock_verified);
     if (q.trim()) {
       const term = q.trim().toLowerCase();
       list = list.filter(
@@ -118,8 +117,8 @@ function MarketplacePage() {
 
       <div className="mt-6 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-primary/20 bg-secondary p-4"><div><strong>Buy together, save together</strong><p className="text-sm text-muted-foreground">Explore Hyderabad community purchase groups and bulk quantity targets.</p></div><Button asChild><Link to="/groups">Explore group buying</Link></Button></div>
 
-      {!supabaseConfigured && <div className="mt-5 rounded-xl border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-950"><strong>Preview catalog — 52 DEMO products.</strong> Supabase is not configured. Prices and stock are unverified; checkout is disabled. Connect Supabase to display live inventory.</div>}
-      {supabaseConfigured && isError && <div className="mt-5 rounded-xl border border-red-300 bg-red-50 px-4 py-3 text-sm text-red-900">Could not load products from Supabase. Check your .env credentials and apply the catalog migrations. No demo data has been substituted for live inventory.</div>}
+      {!supabaseConfigured && <div className="mt-5 rounded-xl border border-amber-300 bg-amber-50 px-4 py-3 text-sm text-amber-950">Marketplace is temporarily unavailable while the live database connection is configured.</div>}
+      {supabaseConfigured && isError && <div className="mt-5 rounded-xl border border-red-300 bg-red-50 px-4 py-3 text-sm text-red-900">Could not load products from Supabase. Check your .env credentials and apply the catalog migrations. Please try again later.</div>}
       <div className="relative mt-6">
         <Search className="absolute top-1/2 left-4 h-5 w-5 -translate-y-1/2 text-muted-foreground" />
         <Input
